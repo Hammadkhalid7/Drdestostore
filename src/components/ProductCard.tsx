@@ -12,6 +12,7 @@ export type Product = {
   image: string;
   href: string;
   available?: boolean;
+  categories?: string[];
 };
 
 type ProductCardProps = {
