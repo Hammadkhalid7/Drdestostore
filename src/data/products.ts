@@ -8,7 +8,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Tresemme shampoo pro collection",
     brand: "TRESEMME",
-    description: "Keratin shampoo to control frizzy hair and smo...",
+    description: "Keratin shampoo that controls frizzy hair and smooths strands, with Marula Oil for up to 72 hours of frizz control.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2912-shampoos.png",
@@ -18,17 +18,17 @@ export const PRODUCTS: Product[] = [
   {
     name: "Now solutions castor oil for hair",
     brand: "NOW SOLUTIONS",
-    description: "This Now Foods castor oil has anti-inflammator...",
+    description: "This NOW Foods castor oil has anti-inflammatory properties and is prized for nourishing hair, skin and nails.",
     price: "AED 45.00",
     oldPrice: "AED 50.00",
-    image: "/products/2910-hairoils.png",
+    image: "/products/2910-hairoils-v2.png",
     href: "/product/now-solutions-castor-oil",
     categories: ["skincare", "facial-oils", "haircare", "hair-oils", "body-care", "new-arrivals"],
   },
   {
     name: "Now vegetable glycerin",
     brand: "DR DESTA SELECTION",
-    description: "Pure Vegetable Glycerin Is An Outstanding Mois...",
+    description: "Pure vegetable glycerin is an outstanding moisturizer that helps skin retain water and stay hydrated.",
     price: "AED 45.00",
     oldPrice: "AED 50.00",
     image: "/products/2908-shopall.png",
@@ -38,7 +38,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Now solutions almond oil",
     brand: "NOW SOLUTIONS",
-    description: "100% Pure Moisturizing Oil Nourishing Promotes...",
+    description: "100% pure moisturizing oil that nourishes skin and hair, promoting softness and a healthy shine.",
     price: "AED 45.00",
     oldPrice: "AED 50.00",
     image: "/products/2906-shopall.png",
@@ -48,7 +48,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Amalico pro natural shampoo",
     brand: "AMALICO",
-    description: "Use for Hair Growth Moisturising & Anti-dandru...",
+    description: "Use for hair growth, moisturising and anti-dandruff care, gently cleansing the scalp while supporting healthier-looking hair.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2904-shampoos.png",
@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Amalico natural hair growth serum",
     brand: "AMALICO",
-    description: "Formulated with a blend of Coconut Oil, Batana...",
+    description: "Formulated with a blend of coconut oil, batana oil and other natural extracts to nourish the scalp and support hair growth.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2902-hairoils.png",
@@ -68,7 +68,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Amalico batana oil for hair growth",
     brand: "AMALICO",
-    description: "This batana oil pro is derived from the miracu...",
+    description: "This batana oil is derived from the miracle palm fruit and traditionally used to strengthen and condition hair.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2900-hairoils.png",
@@ -78,7 +78,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Shiseido Fino Premium Beauty Conditioner",
     brand: "SHISEIDO",
-    description: "Fino Premium Touch is the perfect hair care pr...",
+    description: "Fino Premium Touch is a rich hair treatment conditioner that deeply moisturizes and smooths damaged hair.",
     price: "AED 45.00",
     oldPrice: "AED 55.00",
     image: "/products/2898-conditioners.png",
@@ -88,7 +88,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Shiseido Fino Premium Beauty shampo",
     brand: "SHISEIDO",
-    description: "Provides intense moisture for dry and damaged ...",
+    description: "Provides intense moisture for dry and damaged hair, leaving it soft, smooth and manageable.",
     price: "AED 50.00",
     oldPrice: "AED 55.00",
     image: "/products/2896-shampoos.png",
@@ -98,7 +98,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Unlocking Queen Bee Apple Hair Colour",
     brand: "DR DESTA SELECTION",
-    description: "Perfect color lock, dyeing and protecting oil ...",
+    description: "A perfect color-lock formula that dyes and protects hair in one step, keeping color vivid for longer.",
     price: "AED 15.00",
     oldPrice: "AED 25.00",
     image: "/products/2893-shopall.png",
@@ -108,7 +108,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Long lasting hair dye",
     brand: "DR DESTA SELECTION",
-    description: "It delivers color without the sting or strong ...",
+    description: "It delivers long-lasting color without the sting or strong odor common to traditional hair dyes.",
     price: "AED 50.00",
     oldPrice: "AED 65.00",
     image: "/products/2890-shampoos.png",
@@ -118,7 +118,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "FEG hair regrowth spray",
     brand: "DR DESTA SELECTION",
-    description: "Designed for users with low hair density or we...",
+    description: "Designed for users with low hair density or weak, thinning hair, this spray supports a fuller-looking head of hair.",
     price: "AED 50.00",
     oldPrice: "AED 55.00",
     image: "/products/2888-shopall.png",
@@ -128,7 +128,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "American harvest honey",
     brand: "DR DESTA SELECTION",
-    description: "Pure & Certified Natural Honey – Sourced direc...",
+    description: "Pure and certified natural honey, sourced directly from the hive for everyday wellness.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2886-shopall.png",
@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Cosmo black seed anti dandruff shampoo",
     brand: "COSMO",
-    description: "Restore your hair's natural vitality with this...",
+    description: "Restore your hair's natural vitality with this black seed-infused shampoo that helps control dandruff and soothe the scalp.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2884-shampoos.png",
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Moisturizing Coconut Milk Shampoo",
     brand: "DR DESTA SELECTION",
-    description: "Cosmo moisturizing shampoo is enriched with Co...",
+    description: "Cosmo Moisturizing Shampoo is enriched with coconut milk to gently cleanse while leaving hair soft and hydrated.",
     price: "",
     oldPrice: "",
     image: "/products/2882-shampoos.png",
@@ -159,7 +159,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Anti – Dandruff Cosmo Tea Tree Oil Shampoo",
     brand: "DR DESTA SELECTION",
-    description: "Energize your senses with the refreshing tingl...",
+    description: "Energize your senses with the refreshing tingle of tea tree oil, formulated to help control dandruff and soothe the scalp.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2880-shampoos.png",
@@ -171,7 +171,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Palmers hair cream",
     brand: "PALMERS",
-    description: "Nourishes hair and scalp, enriched with vitami...",
+    description: "Nourishes hair and scalp, enriched with vitamins A, B & E plus protein for softer, more manageable hair.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2871-conditioners.png",
@@ -181,7 +181,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Hair tonic and scalp conditioner",
     brand: "DR DESTA SELECTION",
-    description: "Hair tonic and scalp conditioner helps to keep...",
+    description: "This hair tonic and scalp conditioner helps to keep the scalp clean and conditioned, supporting healthier-looking hair.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2869-hairoils.png",
@@ -191,7 +191,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "ORS olive oil relaxer kit",
     brand: "DR DESTA SELECTION",
-    description: "This professional formula is for silky, soft h...",
+    description: "This professional formula is for silky, soft hair, gently relaxing curls while conditioning with olive oil.",
     price: "AED 20.00",
     oldPrice: "AED 30.00",
     image: "/products/2867-shop3.png",
@@ -201,7 +201,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Mielle rosemary mint hair masque",
     brand: "MIELLE",
-    description: "Give dry and thirsty hair a deep moisture trea...",
+    description: "Give dry and thirsty hair a deep moisture treatment infused with rosemary and mint to strengthen and nourish strands.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2865-shop3.png",
@@ -211,7 +211,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Mielle organics rosemary mint scalp & hair strengthening oil",
     brand: "MIELLE",
-    description: "Mielle Rosemary Mint Scalp & Hair Oil is a pre...",
+    description: "Mielle Rosemary Mint Scalp & Hair Oil is a premium blend designed to strengthen hair and soothe the scalp.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2862-hairoils.png",
@@ -221,7 +221,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Hairgrow 5 minoxidil 50ml",
     brand: "DR DESTA SELECTION",
-    description: "HairGrow Minoxidil 5% Hairgrow directly stimul...",
+    description: "HairGrow Minoxidil 5% directly stimulates hair follicles to support thicker, fuller-looking hair over time.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2859-shop3.png",
@@ -231,7 +231,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vaseline intensive care deep moisture jelly cream",
     brand: "VASELINE",
-    description: "Vaseline Jelly is the original skin protectant...",
+    description: "Vaseline Jelly is the original skin protectant, locking in moisture to help dry skin heal and stay soft.",
     price: "AED 5.00",
     oldPrice: "AED 10.00",
     image: "/products/2856-shop3.png",
@@ -241,7 +241,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Eucerin advanced repair body lotion",
     brand: "EUCERIN",
-    description: "This Eucerin fragrance free lotion repairs ver...",
+    description: "This fragrance-free Eucerin lotion repairs very dry, rough skin, leaving it smooth and comfortable.",
     price: "AED 75.00",
     oldPrice: "AED 80.00",
     image: "/products/2854-shop3.png",
@@ -251,7 +251,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Anua heartleaf 77 soothing mask",
     brand: "ANUA",
-    description: "Formulated with ANUA RICERA 7+ and Arbutin, th...",
+    description: "Formulated with Anua's Heartleaf 77 complex and arbutin, this soothing mask calms and hydrates sensitive-looking skin.",
     price: "AED 45.00",
     oldPrice: "AED 50.00",
     image: "/products/2852-shop3.png",
@@ -261,7 +261,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Best kojic acid serum for hyperpigmentation",
     brand: "DR DESTA SELECTION",
-    description: "Concentrated kojic acid face serum designed to...",
+    description: "A concentrated kojic acid face serum designed to target dark spots and help even out skin tone.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2850-shop3.png",
@@ -271,7 +271,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vaseline lotion for dry skin face",
     brand: "VASELINE",
-    description: "Made with petroleum jelly, purity is d with ou...",
+    description: "Made with petroleum jelly for deep moisture, this lotion is formulated to care for dry facial skin.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2848-shop3.png",
@@ -281,7 +281,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vaseline gluta hya serum",
     brand: "VASELINE",
-    description: "Helps transform dull, dry skin to smooth, even...",
+    description: "Helps transform dull, dry skin into a smoother, more even-toned complexion with glutathione and hyaluronic acid.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2846-shop3.png",
@@ -291,7 +291,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Sudocrem healing cream",
     brand: "DR DESTA SELECTION",
-    description: "Sudocrem Antiseptic Healing Cream has a water-...",
+    description: "Sudocrem Antiseptic Healing Cream has a water-repellent formula that soothes and helps protect irritated skin.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2844-shop3.png",
@@ -301,7 +301,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Kojic acid face cream",
     brand: "DR DESTA SELECTION",
-    description: "SPF 60 sunblock cream provides superior UVA/UV...",
+    description: "This SPF 60 sunblock cream provides superior UVA/UVB protection while helping to brighten and even skin tone.",
     price: "AED 15.00",
     oldPrice: "AED 25.00",
     image: "/products/2842-shop3.png",
@@ -311,7 +311,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Kojic acid face body scrub",
     brand: "DR DESTA SELECTION",
-    description: "Kojic Acid Secret White scrub features zero pi...",
+    description: "Kojic Acid Secret White scrub features a zero-pigment formula that gently exfoliates for brighter, smoother skin.",
     price: "AED 15.00",
     oldPrice: "AED 25.00",
     image: "/products/2840-shop3.png",
@@ -321,7 +321,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Mouth spray for bad breath",
     brand: "DR DESTA SELECTION",
-    description: "Measuring just 2.5cm x 2.5cm x 10cm, this brea...",
+    description: "Measuring just 2.5cm x 2.5cm x 10cm, this compact breath spray freshens your mouth instantly, wherever you are.",
     price: "AED 10.00",
     oldPrice: "AED 15.00",
     image: "/products/2838-shop3.png",
@@ -332,25 +332,26 @@ export const PRODUCTS: Product[] = [
   {
     name: "Kojie San skin lightening soap value pack",
     brand: "KOJIE SAN",
-    description: "Value pack of 3 x 65g bars, save up to P25 on t...",
+    description: "Value pack of 3 x 65g bars, offering savings over buying individually while helping brighten and even skin tone.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2920-shop3.png",
     href: "/product/kojie-san-skin-lightening-soap-value-pack",
   },
   {
-    name: "Dhiin Dhiin papaya body brightening cream",
+    name: "Dhiin Dhiin Papaya Body Brightening Cream",
     brand: "DHIIN DHIIN",
-    description: "Body brightening cream infused with papaya ext...",
-    price: "AED 35.00",
-    oldPrice: "AED 40.00",
-    image: "/products/2922-shop3.png",
+    description: "A papaya-infused body brightening cream for smoother, more even-looking skin.",
+    price: "AED 15.00",
+    oldPrice: "AED 25.00",
+    image: "/products/2834-zoom.png",
     href: "/product/dhiin-dhiin-papaya-body-brightening-cream",
+    categories: ["body-care", "body-creams"],
   },
   {
     name: "Clear Men hair fall defense shampoo",
     brand: "CLEAR",
-    description: "Anti-dandruff shampoo with 10x less hair fall, ...",
+    description: "Anti-dandruff shampoo formulated for up to 10x less hair fall, leaving hair clean and strengthened.",
     price: "AED 22.00",
     oldPrice: "AED 28.00",
     image: "/products/2924-shop3.png",
@@ -360,7 +361,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Kenta Bebe creme de soin",
     brand: "KENTA",
-    description: "Gentle baby care cream for soft, protected skin...",
+    description: "A gentle baby care cream for soft, protected skin, suitable for everyday use.",
     price: "AED 18.00",
     oldPrice: "AED 22.00",
     image: "/products/2926-shop3.png",
@@ -369,7 +370,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Nivea cocoa butter body lotion twin pack",
     brand: "NIVEA",
-    description: "Special offer twin pack, 250ml each, deeply nou...",
+    description: "Special offer twin pack, 250ml each, deeply nourishing dry skin with rich cocoa butter.",
     price: "AED 28.00",
     oldPrice: "AED 35.00",
     image: "/products/2930-shop3.png",
@@ -378,7 +379,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Hemani clove oil",
     brand: "HEMANI",
-    description: "Pure natural clove oil, 30ml, traditionally used...",
+    description: "Pure natural clove oil, 30ml, traditionally used for its warming, aromatic properties.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2932-shop3.png",
@@ -387,7 +388,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Dove original anti-perspirant deodorant",
     brand: "DOVE",
-    description: "0% alcohol, 24h protection with moisturising cr...",
+    description: "0% alcohol, with 24-hour protection and a moisturising cream formula that cares for underarm skin.",
     price: "AED 16.00",
     oldPrice: "AED 20.00",
     image: "/products/2934-shop3.png",
@@ -396,7 +397,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Bebecom pure glycerin oil",
     brand: "BEBECOM",
-    description: "Pure glycerin oil for normal and dry skin, gentl...",
+    description: "Pure glycerin oil for normal and dry skin, gently moisturizing without clogging pores.",
     price: "AED 12.00",
     oldPrice: "AED 15.00",
     image: "/products/2936-shop3.png",
@@ -405,7 +406,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Dabur Herbolene aloe vera petroleum jelly value pack",
     brand: "DABUR",
-    description: "2-in-1 aloe vera deep moisturizing petroleum je...",
+    description: "A 2-in-1 aloe vera and petroleum jelly formula that deeply moisturizes dry skin.",
     price: "AED 18.00",
     oldPrice: "AED 24.00",
     image: "/products/2938-shop3.png",
@@ -414,7 +415,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Parachute 100% pure coconut oil",
     brand: "PARACHUTE",
-    description: "100% pure coconut oil for hair and skin nourish...",
+    description: "100% pure coconut oil for hair and skin nourishment, a versatile everyday moisturizer.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2940-shop3.png",
@@ -423,7 +424,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Bepanthen moisturizing cream",
     brand: "BEPANTHEN",
-    description: "Supports healing of damaged and irritated skin,...",
+    description: "Supports healing of damaged and irritated skin, leaving it soft, smooth and comfortable.",
     price: "AED 30.00",
     oldPrice: "AED 38.00",
     image: "/products/2942-shop3.png",
@@ -432,7 +433,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Love JoJo 99% aloe vera soothing gel",
     brand: "LOVE JOJO",
-    description: "Moisturizing and soothing gel, 300ml, for all sk...",
+    description: "Moisturizing and soothing gel, 300ml, with 99% aloe vera suitable for all skin types.",
     price: "AED 22.00",
     oldPrice: "AED 28.00",
     image: "/products/2944-shop3.png",
@@ -441,7 +442,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Glysolid glycerin cream",
     brand: "GLYSOLID",
-    description: "Classic glycerin cream for soft, smooth skin, l...",
+    description: "A classic glycerin cream for soft, smooth skin, lightly moisturizing for everyday use.",
     price: "AED 14.00",
     oldPrice: "AED 18.00",
     image: "/products/2946-shop3.png",
@@ -450,7 +451,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Skala Expert 2 in 1 hair cream",
     brand: "SKALA",
-    description: "2-in-1 mix of oils, argan, coconut and almond ex...",
+    description: "A 2-in-1 mix of argan, coconut and almond oils that conditions and softens hair.",
     price: "AED 35.00",
     oldPrice: "AED 42.00",
     image: "/products/2948-shop3.png",
@@ -459,7 +460,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "K-Secret Seoul 1988 snail mucin cream",
     brand: "K-SECRET",
-    description: "Snail mucin 93% plus rice cream for soft, hydra...",
+    description: "Snail mucin 93% plus rice cream for soft, hydrated, glowing-looking skin.",
     price: "AED 45.00",
     oldPrice: "AED 55.00",
     image: "/products/2950-shop3.png",
@@ -468,7 +469,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "K-Secret Seoul 1988 cleansing oil",
     brand: "K-SECRET",
-    description: "Pine cica 1% plus probiotics cleansing oil, 200...",
+    description: "Pine cica 1% plus probiotics cleansing oil, 200ml, that gently removes makeup and impurities.",
     price: "AED 45.00",
     oldPrice: "AED 55.00",
     image: "/products/2952-shop3.png",
@@ -479,7 +480,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "The Ordinary Hyaluronic Acid For Face",
     brand: "THE ORDINARY",
-    description: "Skin type Sensitive Product benefits Moisturiz...",
+    description: "Suitable for sensitive skin, this hyaluronic acid serum helps moisturize and plump the skin's surface.",
     price: "AED 45.00",
     oldPrice: "AED 70.00",
     image: "/products/2763-shop4.png",
@@ -489,7 +490,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Medicube Cream with Vitamin C",
     brand: "MEDICUBE",
-    description: "Pop & Blend – Enhance the delivery of Vitamin ...",
+    description: "Pop & Blend technology enhances the delivery of vitamin C for brighter, more radiant-looking skin.",
     price: "AED 45.00",
     oldPrice: "AED 50.00",
     image: "/products/2765-shop4.png",
@@ -499,7 +500,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Medicube Collagen Facial Mask & Hydration Care",
     brand: "MEDICUBE",
-    description: "Awaken Your Glow with Overnight Elasticity Boo...",
+    description: "Awaken your glow with this overnight mask designed to boost elasticity and deeply hydrate skin.",
     price: "AED 35.00",
     oldPrice: "AED 45.00",
     image: "/products/2767-shop4.png",
@@ -509,7 +510,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Medicube Salmon Glow Toner for Skin Boosting",
     brand: "MEDICUBE",
-    description: "Strengthens the Skin Barrier & Enhances Radian...",
+    description: "Strengthens the skin barrier and enhances radiance, leaving skin looking plump and glowing.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2769-shop4.png",
@@ -519,7 +520,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Medicube collagen cream dried hydrolyzed",
     brand: "MEDICUBE",
-    description: "Smaller segments enable better skin absorption...",
+    description: "Smaller, hydrolyzed collagen segments enable better skin absorption for a firmer, more hydrated look.",
     price: "AED 35.00",
     oldPrice: "AED 40.00",
     image: "/products/2771-shop4.png",
@@ -529,7 +530,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Medicube TXA+Niacinamide Korean Skincare",
     brand: "MEDICUBE",
-    description: "Formulated with Tranexamic Acid to support aft...",
+    description: "Formulated with tranexamic acid to support an even-looking skin tone after sun exposure or irritation.",
     price: "AED 40.00",
     oldPrice: "AED 45.00",
     image: "/products/2773-shop4.png",
@@ -539,7 +540,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Medicube Facial Cleanser Turmeric Cleansing for Brightening",
     brand: "MEDICUBE",
-    description: "A targeted blend of Kojic Acid, Turmeric, and ...",
+    description: "A targeted blend of kojic acid, turmeric and other brightening ingredients to gently cleanse and even skin tone.",
     price: "AED 40.00",
     oldPrice: "AED 45.00",
     image: "/products/2775-shop4.png",
@@ -549,7 +550,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vaseline Intensive Care Non-Greasy Lotion",
     brand: "VASELINE",
-    description: "Vaseline's Soothing Hydration Hand and Body Lo...",
+    description: "Vaseline's Soothing Hydration Hand and Body Lotion absorbs quickly for non-greasy, all-day moisture.",
     price: "",
     oldPrice: "",
     image: "/products/2777-shop4.png",
@@ -560,7 +561,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vaseline radiant glow lotion",
     brand: "VASELINE",
-    description: "Contains cocoa butter which is known to nouris...",
+    description: "Contains cocoa butter, known to nourish and soften skin, for a healthy, radiant-looking glow.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2779-shop4.png",
@@ -570,7 +571,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vaseline cocoa butter lotion",
     brand: "VASELINE",
-    description: "ADVANCED REPAIR BODY LOTION is a lotion for dr...",
+    description: "Advanced Repair Body Lotion is formulated for dry skin, deeply moisturizing with cocoa butter.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2781-shop4.png",
@@ -580,7 +581,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Anua Niacinamide 5 TXA Toner Pads Facial Care for Evening Skin Tone",
     brand: "ANUA",
-    description: "A blend of niacinamide and vitamin C promotes ...",
+    description: "A blend of niacinamide and vitamin C promotes a brighter, more even-looking skin tone.",
     price: "AED 75.00",
     oldPrice: "AED 79.00",
     image: "/products/2783-shop4.png",
@@ -590,7 +591,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Anua 7 rice ceramide barrier serum",
     brand: "ANUA",
-    description: "Formulated with ANUA RICERA 7+ and Arbutin, th...",
+    description: "Formulated with Anua's Rice Ceramide 7+ complex and arbutin, this serum strengthens the skin barrier while brightening.",
     price: "AED 65.00",
     oldPrice: "AED 75.00",
     image: "/products/2785-shop4.png",
@@ -600,7 +601,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Anua Azelaic 10 Hyaluron with Korean Toner Pads",
     brand: "ANUA",
-    description: "Azelaic Calming Complex 10% and 7 Cica Complex...",
+    description: "An Azelaic Calming Complex 10% and 7 Cica Complex work together to soothe sensitive-looking skin and support hydration.",
     price: "AED 50.00",
     oldPrice: "AED 55.00",
     image: "/products/2788-shop4.png",
@@ -610,7 +611,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Anua PDRN + Hyaluronic Acid 100 Moisturizing Cream",
     brand: "ANUA",
-    description: "Enriched with PDRN (100ppm) and 3 types of hya...",
+    description: "Enriched with PDRN (100ppm) and three types of hyaluronic acid for deeply hydrated, plumper-looking skin.",
     price: "AED 85.00",
     oldPrice: "AED 90.00",
     image: "/products/2790-shop4.png",
@@ -620,7 +621,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Skin1004 centella cream",
     brand: "SKIN1004",
-    description: "Soothes blemishes and reduces excess oil produ...",
+    description: "Soothes the look of blemishes and helps reduce excess oil production for a calmer, balanced complexion.",
     price: "AED 50.00",
     oldPrice: "AED 55.00",
     image: "/products/2792-shop4.png",
@@ -630,7 +631,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Skin1004 centella cleansing oil",
     brand: "SKIN1004",
-    description: "Apply a few pumps of cleansing oil onto dry fa...",
+    description: "Apply a few pumps of this cleansing oil onto dry skin to effectively dissolve makeup and impurities.",
     price: "AED 35.00",
     oldPrice: "AED 40.00",
     image: "/products/2794-shop4.png",
@@ -642,7 +643,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "La Roche-Posay Anthelios UVMune",
     brand: "LA ROCHE-POSAY",
-    description: "Sun Protection Sun Damage Repair Dark Spot & S...",
+    description: "Provides high sun protection while helping to repair the visible look of sun damage and dark spots.",
     price: "AED 70.00",
     oldPrice: "AED 80.00",
     image: "/products/2761-shop5.png",
@@ -652,7 +653,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "CLEAR for men and anti dandruff shampoo",
     brand: "DR DESTA SELECTION",
-    description: "FRESH NEW LOOK & PACKAGING: New Clear Men anti...",
+    description: "Fresh new look and packaging: Clear Men anti-dandruff shampoo cleanses while helping control flakes.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2759-shampoos.png",
@@ -662,7 +663,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Cerave Foaming Cleanser with Hyaluronic Acid",
     brand: "CERAVE",
-    description: "Suitable for normal to oily skin Refreshing ge...",
+    description: "Suitable for normal to oily skin, this refreshing gel cleanser removes impurities while helping maintain the skin barrier.",
     price: "AED 50.00",
     oldPrice: "AED 55.00",
     image: "/products/2757-shop5.png",
@@ -672,7 +673,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "CeraVe Moisturizing Cream with Hyaluronic Acid",
     brand: "CERAVE",
-    description: "Suitable for dry and very dry skin on the face...",
+    description: "Suitable for dry and very dry skin on the face and body, this rich cream helps restore and maintain the skin barrier.",
     price: "AED 45.00",
     oldPrice: "AED 50.00",
     image: "/products/2755-shop5.png",
@@ -682,7 +683,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Cerave Moisturizing Lotion with Hyaluronic Acid",
     brand: "CERAVE",
-    description: "ESSENTIAL CERAMIDES: Contains 3 essential cera...",
+    description: "Contains 3 essential ceramides and hyaluronic acid to help restore the skin's natural barrier and lock in moisture.",
     price: "AED 45.00",
     oldPrice: "AED 55.00",
     image: "/products/2753-shop5.png",
@@ -692,7 +693,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "JOY Professional 2 in 1 Hot Air",
     brand: "DR DESTA SELECTION",
-    description: "2-in-1 Hair Dryer & Styling Brush – Combine...",
+    description: "A 2-in-1 hair dryer and styling brush that combines drying and styling in one effortless tool.",
     price: "AED 55.00",
     oldPrice: "AED 65.00",
     image: "/products/2751-shop5.png",
@@ -701,7 +702,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "NIVEA Creme for Soft and Supple Skin",
     brand: "NIVEA",
-    description: "MOISTURIZING TECHNOLOGY: thick and rich formul...",
+    description: "A thick, rich formula built on NIVEA's moisturizing technology for soft, supple skin all over.",
     price: "AED 5.00",
     oldPrice: "AED 10.00",
     image: "/products/2749-shop5.png",
@@ -711,7 +712,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "NIVEA Soft Moisturising Cream for Face",
     brand: "NIVEA",
-    description: "REVITALISING MOISTURE: A highly effective, rev...",
+    description: "A highly effective, revitalising moisturizer that leaves facial skin soft and hydrated.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2747-shop5.png",
@@ -721,7 +722,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Johnson's Baby Gentle Cleansing Bath, 500ml",
     brand: "DR DESTA SELECTION",
-    description: "Gently cleanses delicate skin without drying, ...",
+    description: "Gently cleanses delicate baby skin without drying, leaving it soft and lightly scented.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2745-shop5.png",
@@ -731,7 +732,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Johnson's Baby Pure Gentle 500ml Moisturising Oil",
     brand: "DR DESTA SELECTION",
-    description: "Ideal for baby massage, promoting a relaxing b...",
+    description: "Ideal for baby massage, promoting a relaxing bedtime routine while moisturizing delicate skin.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2742-shop5.png",
@@ -740,7 +741,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Rdl Body Lotion Papaya Hand & Body 600ml",
     brand: "DR DESTA SELECTION",
-    description: "Deep Moisturization. (Pack of 2) Tropical Frag...",
+    description: "Deep moisturization in a pack of 2, with a tropical papaya fragrance for soft, nourished skin.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2740-shop5.png",
@@ -750,7 +751,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Ginseng Kianpi Pil – Natural Appetite & Weight Gain",
     brand: "DR DESTA SELECTION",
-    description: "Ginseng Kianpi Pil is a popular herbal supplem...",
+    description: "Ginseng Kianpi Pil is a popular herbal supplement traditionally used to support appetite and healthy weight gain.",
     price: "AED 40.00",
     oldPrice: "AED 50.00",
     image: "/products/2738-shop5.png",
@@ -759,7 +760,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "AMALICO Shampoo Chebe Powder & SHEA BUTTER",
     brand: "AMALICO",
-    description: "Chebe Shampoo for Hair Growth with SHEA BUTTER...",
+    description: "A Chebe powder shampoo enriched with shea butter, formulated to support hair growth and scalp health.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2736-shampoos.png",
@@ -769,7 +770,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "AMALICO African Chebe Powder Conditioner",
     brand: "AMALICO",
-    description: "Chebe Conditioner for Hair Growyh with SHEA BU...",
+    description: "A Chebe powder conditioner enriched with shea butter, formulated to support hair growth and deep conditioning.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2734-conditioners.png",
@@ -779,7 +780,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "AMALICO Hair Mask with Chebe Powder",
     brand: "AMALICO",
-    description: "9 in 1 Chebe Hair Mask for Dry and Frizzy Hair...",
+    description: "A 9-in-1 Chebe hair mask for dry and frizzy hair, deeply conditioning and smoothing strands.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2732-shop5.png",
@@ -789,7 +790,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "AMALICO Hair Growth Oil with Chebe Powder 250ml",
     brand: "AMALICO",
-    description: "Chebe Oil for Hair Growth with SHEA BUTTER – R...",
+    description: "A Chebe powder oil with shea butter, formulated to support hair growth and scalp nourishment.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2730-hairoils.png",
@@ -801,7 +802,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Anua Zero-Cast Moisturizing for Sunscreen Protection",
     brand: "ANUA",
-    description: "Anua Zero-Cast Moisturizing Finish Sunscreen i...",
+    description: "Anua Zero-Cast Moisturizing Finish Sunscreen is a lightweight, non-greasy daily SPF for everyday protection.",
     price: "AED 50.00",
     oldPrice: "AED 55.00",
     image: "/products/2724-shop6.png",
@@ -811,7 +812,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Face Cream for Melasma Even Skin Tone Repair",
     brand: "DR DESTA SELECTION",
-    description: "Renewal Face Cream for Melasma is a specialize...",
+    description: "Renewal Face Cream for Melasma is a specialized formula designed to help even out the look of uneven skin tone.",
     price: "",
     oldPrice: "",
     image: "/products/2722-shop6.png",
@@ -822,7 +823,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vaseline Intensive Cocoa Radiant Body Lotion",
     brand: "VASELINE",
-    description: "Vaseline Intensive Care Cocoa Radiant Vitalizi...",
+    description: "Vaseline Intensive Care Cocoa Radiant Vitalizing Lotion nourishes skin with cocoa butter for a healthy-looking glow.",
     price: "AED 25.00",
     oldPrice: "AED 29.00",
     image: "/products/2720-shop6.png",
@@ -832,7 +833,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Lightening Body Gel Oil for Bright and Glowing Even Skin",
     brand: "DR DESTA SELECTION",
-    description: "Skin Lightening Body Gel Oil is a lightweight,...",
+    description: "Skin Lightening Body Gel Oil is a lightweight, fast-absorbing formula for brighter, more even-looking skin.",
     price: "AED 15.00",
     oldPrice: "AED 17.00",
     image: "/products/2717-shop6.png",
@@ -841,7 +842,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Kojic Acid Skin Body Lotion for Glowing Skin",
     brand: "DR DESTA SELECTION",
-    description: "Helps reduce dark spots and uneven skin tone B...",
+    description: "Helps reduce the look of dark spots and uneven skin tone while moisturizing for a healthy glow.",
     price: "AED 13.00",
     oldPrice: "AED 17.00",
     image: "/products/2715-shop6.png",
@@ -851,7 +852,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Goree Body Cream for Radiant Glowing Skin",
     brand: "DR DESTA SELECTION",
-    description: "Goree Body Cream is a nourishing skincare form...",
+    description: "Goree Body Cream is a nourishing skincare formula designed to leave skin looking radiant and glowing.",
     price: "AED 5.00",
     oldPrice: "AED 6.00",
     image: "/products/2713-shop6.png",
@@ -861,7 +862,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Goree Body Soap for Bright, Smooth & Healthy Glowing Skin",
     brand: "DR DESTA SELECTION",
-    description: "Goree Body Soap is a skin-brightening cleansin...",
+    description: "Goree Body Soap is a skin-brightening cleansing bar that leaves skin feeling smooth and healthy.",
     price: "AED 5.00",
     oldPrice: "AED 6.00",
     image: "/products/2711-shop6.png",
@@ -871,7 +872,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Afghani Hair Growth for Strong Hair Growth Oil",
     brand: "DR DESTA SELECTION",
-    description: "Afghani Hair Growth Oil is a natural herbal oi...",
+    description: "Afghani Hair Growth Oil is a natural herbal oil traditionally used to support stronger, healthier-looking hair.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2709-hairoils.png",
@@ -881,7 +882,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Herbal Gray Hair Spray for Color Coverage",
     brand: "DR DESTA SELECTION",
-    description: "Herbal Gray Hair Spray is a quick and convenie...",
+    description: "Herbal Gray Hair Spray is a quick and convenient way to cover gray roots between color treatments.",
     price: "AED 15.00",
     oldPrice: "AED 19.00",
     image: "/products/2707-shop6.png",
@@ -890,7 +891,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "PYARY Turmeric Ayurvedic Soap for Clear Healthy",
     brand: "DR DESTA SELECTION",
-    description: "Deeply cleanses and refreshes the skin Helps i...",
+    description: "Deeply cleanses and refreshes the skin, helping improve its look and feel with traditional turmeric.",
     price: "AED 4.00",
     oldPrice: "AED 5.00",
     image: "/products/2705-shop6.png",
@@ -900,7 +901,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Silka Papaya Soap for Healthy Skin",
     brand: "SILKA",
-    description: "Helps brighten and smooth the skin Gently exfo...",
+    description: "Helps brighten and smooth the skin, gently exfoliating with natural papaya extract.",
     price: "AED 10.00",
     oldPrice: "AED 12.00",
     image: "/products/2703-shop6.png",
@@ -910,7 +911,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vatika Shampoo for Shiny Hair Strong",
     brand: "DR DESTA SELECTION",
-    description: "Gently cleanses hair and scalp Helps reduce ha...",
+    description: "Gently cleanses hair and scalp while helping reduce hair fall, for shinier, stronger-looking hair.",
     price: "AED 10.00",
     oldPrice: "AED 12.00",
     image: "/products/2701-shampoos.png",
@@ -920,7 +921,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Cream Silk Conditioner for Healthy Hair",
     brand: "DR DESTA SELECTION",
-    description: "Cream Silk Conditioner is specially formulated...",
+    description: "Cream Silk Conditioner is specially formulated to leave hair soft, smooth and easy to manage.",
     price: "AED 10.00",
     oldPrice: "AED 13.00",
     image: "/products/2699-conditioners.png",
@@ -930,7 +931,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "HairGrow Minoxidil 5% for Thicker Hair",
     brand: "DR DESTA SELECTION",
-    description: "HairGrow Minoxidil 5% is a powerful hair regro...",
+    description: "HairGrow Minoxidil 5% is a powerful hair regrowth treatment designed to support thicker-looking hair over time.",
     price: "AED 40.00",
     oldPrice: "AED 45.00",
     image: "/products/2697-shop6.png",
@@ -940,7 +941,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Akpi Seeds 100ml Breast Enlarging Cream",
     brand: "DR DESTA SELECTION",
-    description: "Akpi Seeds Breast Enlarging Beautifying Cream ...",
+    description: "Akpi Seeds Breast Enlarging Beautifying Cream is a traditional herbal formula for everyday body care.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2694-shop6.png",
@@ -950,7 +951,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Akpi Seeds 100ml Buttocks Cream",
     brand: "DR DESTA SELECTION",
-    description: "Akpi Seeds Face Beautifying Cream 100ml is a n...",
+    description: "Akpi Seeds Buttocks Cream is a nourishing herbal body cream for everyday use.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2691-shop6.png",
@@ -962,7 +963,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Bebecom glycerin oil reviews",
     brand: "DR DESTA SELECTION",
-    description: "Glycerine is a high performance skin care oil,...",
+    description: "Glycerine is a high-performance skincare oil that helps the skin retain moisture for a softer feel.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2816-skincare.png",
@@ -972,7 +973,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Kenta moroccan cream",
     brand: "DR DESTA SELECTION",
-    description: "Contributes to soothing the skin of sensitive ...",
+    description: "Contributes to soothing sensitive skin, leaving it feeling calm and comfortable.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2824-skincare.png",
@@ -982,7 +983,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Nivea cocoa butter body lotion",
     brand: "NIVEA",
-    description: "Formulated with deep moisture serum Enriched w...",
+    description: "Formulated with a deep moisture serum and enriched with cocoa butter for long-lasting hydration.",
     price: "AED 35.00",
     oldPrice: "AED 45.00",
     image: "/products/2827-skincare.png",
@@ -992,7 +993,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Kojie san kojic acid soap",
     brand: "DR DESTA SELECTION",
-    description: "Formulated with kojic acid, a powerful natural...",
+    description: "Formulated with kojic acid, a natural brightening ingredient that helps even out the look of skin tone.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2836-skincare.png",
@@ -1004,7 +1005,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "DOVE Moisturising Soap For healthy Skin",
     brand: "DOVE",
-    description: "Keep your skin soft, smooth, and nourished wit...",
+    description: "Keep your skin soft, smooth and nourished with Dove's moisturising cream formula.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2599-cleansers.png",
@@ -1014,7 +1015,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "K-Secret Seoul 1988 Pine Cica",
     brand: "K-SECRET",
-    description: "The blend of 5 plant-derived oils provides dee...",
+    description: "A blend of 5 plant-derived oils provides deep hydration while gently cleansing the skin.",
     price: "AED 40.00",
     oldPrice: "AED 45.00",
     image: "/products/2796-cleansers.png",
@@ -1026,7 +1027,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "QV cream for very dry skin",
     brand: "DR DESTA SELECTION",
-    description: "QV cream, QV with glycerin, glycerin moisturiz...",
+    description: "QV Cream is a glycerin-based moisturizer formulated for very dry, sensitive skin.",
     price: "AED 75.00",
     oldPrice: "AED 77.00",
     image: "/products/2584-facecreams.png",
@@ -1036,7 +1037,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Gluta white cream benefits",
     brand: "DR DESTA SELECTION",
-    description: "Gluta White Cream is a skin brightening and mo...",
+    description: "Gluta White Cream is a skin-brightening and moisturizing formula for a more even-looking complexion.",
     price: "AED 25.00",
     oldPrice: "AED 27.00",
     image: "/products/2611-facecreams.png",
@@ -1046,7 +1047,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Akpi Seeds Face Beautifying Cream",
     brand: "DR DESTA SELECTION",
-    description: "Akpi Seeds Face Beautifying Cream 100ml is a n...",
+    description: "Akpi Seeds Face Beautifying Cream 100ml is a nourishing herbal formula for everyday facial care.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2689-facecreams.png",
@@ -1056,7 +1057,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "K secret SEOUL 1988 products",
     brand: "DR DESTA SELECTION",
-    description: "Powered by 93% Snail secretion filtrate, this ...",
+    description: "Powered by 93% snail secretion filtrate, this cream helps hydrate and soothe the look of skin.",
     price: "AED 40.00",
     oldPrice: "AED 45.00",
     image: "/products/2798-facecreams.png",
@@ -1066,7 +1067,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Glysolid cream for face",
     brand: "GLYSOLID",
-    description: "Restores natural beauty while softening your s...",
+    description: "Restores natural beauty while softening your skin with a rich glycerin-based formula.",
     price: "AED 10.00",
     oldPrice: "AED 15.00",
     image: "/products/2806-facecreams.png",
@@ -1076,7 +1077,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Bepanthen moisturizing cream price",
     brand: "BEPANTHEN",
-    description: "Bepanthen Moisturizing cream can be used daily...",
+    description: "Bepanthen Moisturizing Cream can be used daily to help soothe and protect dry, sensitive skin.",
     price: "AED 30.00",
     oldPrice: "AED 38.00",
     image: "/products/2810-facecreams.png",
@@ -1088,7 +1089,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "EQQUALBERRY 30 ml Vitamin Illuminating Serum",
     brand: "DR DESTA SELECTION",
-    description: "Vitamin C Radiance Support – Acerola (Vitami...",
+    description: "Vitamin C radiance support with acerola extract to help brighten dull, uneven-looking skin.",
     price: "AED 60.00",
     oldPrice: "AED 65.00",
     image: "/products/2398-serums.png",
@@ -1098,7 +1099,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Carotone 30ml Natural Black Spot Serum",
     brand: "DR DESTA SELECTION",
-    description: "CaroTone Light & Natural Black Spot Serum 30ml...",
+    description: "CaroTone Light & Natural Black Spot Serum is formulated to help fade the look of dark spots for a more even tone.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2682-serums.png",
@@ -1108,7 +1109,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Love JoJo Aloe Vera Gel",
     brand: "DR DESTA SELECTION",
-    description: "Love Jo Aloe Vera Moisturising Gel 300ml. Ligh...",
+    description: "Love JoJo Aloe Vera Moisturising Gel, 300ml, is a lightweight gel that soothes and hydrates the skin.",
     price: "AED 15.00",
     oldPrice: "AED 17.00",
     image: "/products/2808-serums.png",
@@ -1120,7 +1121,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Sunny Isle Castor Oil",
     brand: "DR DESTA SELECTION",
-    description: "Natural, salon-grade nourishment at home Helps...",
+    description: "Natural, salon-grade nourishment at home, helping condition and strengthen hair and skin.",
     price: "AED 50.00",
     oldPrice: "AED 52.00",
     image: "/products/2581-hairoils.png",
@@ -1132,7 +1133,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Eucerin Face Sunscreen",
     brand: "EUCERIN",
-    description: "VERY HIGH SUN PROTECTION FOR FACE: Eucerin Fac...",
+    description: "Very high sun protection for the face: Eucerin's facial sunscreen fluid for daily SPF 50+ protection.",
     price: "AED 45.00",
     oldPrice: "AED 50.00",
     image: "/products/2364-sunscreen.png",
@@ -1144,7 +1145,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Clear men shampoo",
     brand: "DR DESTA SELECTION",
-    description: "Clear anti dandruff shampoo for men with 10x less hair fall and nourishing formula...",
+    description: "Clear anti dandruff shampoo for men with 10x less hair fall and a nourishing formula.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2832-shampoo-v2.png",
@@ -1154,7 +1155,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Sulfur 8 original formula",
     brand: "DR DESTA SELECTION",
-    description: "Sulfur 8 Anti-Dandruff Shampoo is a medicated formula that helps control dandruff and conditions the scalp...",
+    description: "Sulfur 8 Anti-Dandruff Shampoo is a medicated formula that helps control dandruff and conditions the scalp.",
     price: "AED 50.00",
     oldPrice: "AED 55.00",
     image: "/products/2613-shampoo-v2.png",
@@ -1164,7 +1165,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Dove shampoo anti dandruff and nourishing hair",
     brand: "DOVE",
-    description: "Dove Shampoo is a gentle and nourishing hair care solution that fights dandruff while keeping hair soft...",
+    description: "Dove Shampoo is a gentle and nourishing hair care solution that fights dandruff while keeping hair soft.",
     price: "AED 15.00",
     oldPrice: "AED 22.00",
     image: "/products/2595-shampoo-v2.png",
@@ -1174,7 +1175,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Meclay London Anti Dandruff Sulfate 660ML",
     brand: "DR DESTA SELECTION",
-    description: "Anti Dandruff Hexa Active Complex ANTI-DANDRUFF formula with Zinc Pyrithione, Piroctone Olamine and more...",
+    description: "An anti-dandruff formula built on the Hexa Active Complex with Zinc Pyrithione, Piroctone Olamine and more.",
     price: "AED 30.00",
     oldPrice: "AED 33.00",
     image: "/products/2576-shampoo-v2.png",
@@ -1184,7 +1185,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Head & Shoulders 400ml To Leave Hair Feeling & Deep Clean",
     brand: "DR DESTA SELECTION",
-    description: "DEEPEST CLEAN FOR SEVERE DANDRUFF: Our gel formula goes deep into hair to remove flakes and leave hair feeling clean...",
+    description: "Deepest clean for severe dandruff: this gel formula goes deep into hair to remove flakes and leave hair feeling clean.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2410-shampoo-v2.png",
@@ -1196,7 +1197,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Skala expert amido de milho",
     brand: "DR DESTA SELECTION",
-    description: "Use it as a hair conditioning treatment or leave-in for smooth, frizz-free, hydrated hair...",
+    description: "Use it as a hair conditioning treatment or leave-in for smooth, frizz-free, hydrated hair.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2800-conditioners.png",
@@ -1206,7 +1207,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "skala 1000g perfect curls hair products",
     brand: "DR DESTA SELECTION",
-    description: "Skala Expert Perfect Curls Conditioning Cream for all curl types — hydrates, defines and reduces frizz...",
+    description: "Skala Expert Perfect Curls Conditioning Cream for all curl types — hydrates, defines and reduces frizz.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2673-conditioners.png",
@@ -1216,7 +1217,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Skala lady Expert Perfect Curls",
     brand: "DR DESTA SELECTION",
-    description: "Skala Expert Perfect Curls Conditioning Cream for all curl types — strengthens, hydrates and defines...",
+    description: "Skala Expert Perfect Curls Conditioning Cream for all curl types — strengthens, hydrates and defines.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2671-conditioners.png",
@@ -1226,7 +1227,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "DOVE Conditioner smooth and healthy hair",
     brand: "DOVE",
-    description: "Experience soft, smooth, and healthy-looking hair with Dove Amino Acid Intensive Repair Conditioner...",
+    description: "Experience soft, smooth, and healthy-looking hair with Dove Amino Acid Intensive Repair Conditioner.",
     price: "AED 15.00",
     oldPrice: "AED 25.00",
     image: "/products/2597-conditioners.png",
@@ -1236,7 +1237,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "zalash cocos cream hair food ethiopia",
     brand: "DR DESTA SELECTION",
-    description: "Zalash Cocos Cream Hair Food is a premium Ethiopian hair food enriched with coconut extract...",
+    description: "Zalash Cocos Cream Hair Food is a premium Ethiopian hair food enriched with coconut extract.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2593-conditioners.png",
@@ -1246,7 +1247,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Zenith Coconut Hair Product",
     brand: "DR DESTA SELECTION",
-    description: "Zenith Avocado Oil Hair Food commonly highlights key ingredients that benefit hair health and growth...",
+    description: "Zenith Avocado Oil Hair Food commonly highlights key ingredients that benefit hair health and growth.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2591-conditioners.png",
@@ -1256,7 +1257,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Batana butter 100g and Batana hair treatment",
     brand: "DR DESTA SELECTION",
-    description: "100% Raw, Pure and Natural Batana Oil for Hair and Scalp — Volumizing, Thickening and Strengthening...",
+    description: "100% raw, pure and natural batana oil for hair and scalp — volumizing, thickening and strengthening.",
     price: "AED 35.00",
     oldPrice: "AED 38.00",
     image: "/products/2578-conditioners.png",
@@ -1266,7 +1267,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Cantu Avocado Repair Leave Hair Cream",
     brand: "CANTU",
-    description: "Deep Moisture and Nourishment: Enriched with avocado oil, olive oil, aloe and shea butter...",
+    description: "Deep moisture and nourishment: enriched with avocado oil, olive oil, aloe and shea butter.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2395-conditioners.png",
@@ -1276,7 +1277,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Cantu avocado conditioner leave in review",
     brand: "CANTU",
-    description: "Infused with avocado oil to restore moisture to dry, damaged hair while reducing frizz and adding shine...",
+    description: "Infused with avocado oil to restore moisture to dry, damaged hair while reducing frizz and adding shine.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2393-conditioners.png",
@@ -1286,7 +1287,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Blue Magic Hair Food Near Me",
     brand: "DR DESTA SELECTION",
-    description: "Instantly strengthens hair. Promotes healthy looking hair with Vitamin E, Wheat Germ Oil and Coconut Oil...",
+    description: "Instantly strengthens hair. Promotes healthy looking hair with Vitamin E, Wheat Germ Oil and Coconut Oil.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2381-conditioners.png",
@@ -1296,7 +1297,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "blue magic hair grease blue magic bands",
     brand: "DR DESTA SELECTION",
-    description: "Blue Magic Hair and Scalp Conditioner with Bergamot — the original anti-breakage formula...",
+    description: "Blue Magic Hair and Scalp Conditioner with Bergamot — the original anti-breakage formula.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2379-conditioners.png",
@@ -1308,7 +1309,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Dabur amla 500ml price dabur amla hair oil 500 ml bottle",
     brand: "DR DESTA SELECTION",
-    description: "Dabur Amla Hair Oil 500ml provides natural care for your hair, making it long, strong and dark...",
+    description: "Dabur Amla Hair Oil 500ml provides natural care for your hair, making it long, strong and dark.",
     price: "AED 15.00",
     oldPrice: "AED 18.00",
     image: "/products/2661-hairoils.png",
@@ -1318,7 +1319,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Emami 7 Oils In One 500ml For Sticky Hair Oil",
     brand: "DR DESTA SELECTION",
-    description: "Benefits: Makes hair stronger and less prone to breakage, reduces hair fall and promotes growth...",
+    description: "Benefits: makes hair stronger and less prone to breakage, reduces hair fall and promotes growth.",
     price: "AED 15.00",
     oldPrice: "AED 16.00",
     image: "/products/2601-hairoils.png",
@@ -1328,7 +1329,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "leaf-infused hair growth oil",
     brand: "DR DESTA SELECTION",
-    description: "Inspired by traditional Ethiopian hair care rituals, this leaf-infused oil promotes growth and nourishes the scalp...",
+    description: "Inspired by traditional Ethiopian hair care rituals, this leaf-infused oil promotes growth and nourishes the scalp.",
     price: "AED 60.00",
     oldPrice: "AED 65.00",
     image: "/products/2586-hairoils.png",
@@ -1338,7 +1339,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "vatika hair olive oil",
     brand: "DR DESTA SELECTION",
-    description: "Product from dabur Softness and shine Natural vatika enriched olive hair oil nourishes and protects hair...",
+    description: "A product from Dabur: softness and shine with natural vatika-enriched olive hair oil that nourishes and protects hair.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2408-hairoils.png",
@@ -1348,7 +1349,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Vatika 300ml Naturals Onion Enriched Hair Oil",
     brand: "DR DESTA SELECTION",
-    description: "Vatika Naturals Onion Enriched Hair Oil is a natural formula that reduces hair fall and strengthens hair...",
+    description: "Vatika Naturals Onion Enriched Hair Oil is a natural formula that reduces hair fall and strengthens hair.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2406-hairoils.png",
@@ -1358,7 +1359,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Olive oil hair products",
     brand: "DR DESTA SELECTION",
-    description: "Suitable for all types of hair. Gives new and shiny appearance to hair while nourishing and repairing...",
+    description: "Suitable for all types of hair, this oil gives a new, shiny appearance to hair while nourishing and repairing.",
     price: "AED 10.00",
     oldPrice: "AED 15.00",
     image: "/products/2402-hairoils.png",
@@ -1368,7 +1369,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Snail Hair Oil 100 ML For Nourishing",
     brand: "DR DESTA SELECTION",
-    description: "Nourishing, Moisturizing, Softening hair oil that penetrates deep to repair and promote healthy hair growth...",
+    description: "A nourishing, moisturizing, softening hair oil that penetrates deep to repair and promote healthy hair growth.",
     price: "AED 10.00",
     oldPrice: "AED 15.00",
     image: "/products/2400-hairoils.png",
@@ -1378,7 +1379,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "MIMI & BEIBEI Rosemary Serum 2Pcs",
     brand: "DR DESTA SELECTION",
-    description: "Promotes Hair Growth: Stimulates hair follicles to encourage regrowth. Improves Blood Circulation and Nourishes the Scalp...",
+    description: "Promotes hair growth: stimulates hair follicles to encourage regrowth, improves blood circulation and nourishes the scalp.",
     price: "AED 20.00",
     oldPrice: "AED 25.00",
     image: "/products/2389-hairoils.png",
@@ -1390,7 +1391,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Orange Enzymes Gel",
     brand: "DR DESTA SELECTION",
-    description: "Orange Exfoliating Gel is a brightening skinca...",
+    description: "Orange Exfoliating Gel is a brightening skincare treatment that gently resurfaces skin for a smoother look.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2667-masksexfoliants.png",
@@ -1402,7 +1403,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Nuba ethioapian shea butter For Deeply Nourishing",
     brand: "DR DESTA SELECTION",
-    description: "Shea butter is a rich, natural moisturizer kno...",
+    description: "Shea butter is a rich, natural moisturizer known for deeply nourishing dry skin and hair.",
     price: "AED 70.00",
     oldPrice: "AED 80.00",
     image: "/products/2687-hairmasks.png",
@@ -1412,7 +1413,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Sofnfree 1 Litre Super Creme Relaxer",
     brand: "DR DESTA SELECTION",
-    description: "Sofn'free Super Cortical Creme Relaxer 1 Litre...",
+    description: "Sofn'free Super Cortical Creme Relaxer, 1 Litre, gently relaxes curls while conditioning hair.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2675-hairmasks.png",
@@ -1424,7 +1425,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Dabur herbolene jelly",
     brand: "DR DESTA SELECTION",
-    description: "Dabur Herbolene Petroleum Jelly contains natur...",
+    description: "Dabur Herbolene Petroleum Jelly contains natural aloe vera to deeply moisturize dry skin.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2814-bodycare.png",
@@ -1434,7 +1435,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Dove antiperspirant for women",
     brand: "DOVE",
-    description: "Dove women anti perspirant Cream, Original, pr...",
+    description: "Dove Women Anti-Perspirant Cream, Original, provides 24-hour protection with a moisturizing formula.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2818-bodycare.png",
@@ -1446,7 +1447,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "NIVEA 48 hours hydration",
     brand: "NIVEA",
-    description: "COMPLETE CARE: NIVEA Cocoa Butter Body Lotion ...",
+    description: "Complete care: NIVEA Cocoa Butter Body Lotion provides 48 hours of hydration for soft, nourished skin.",
     price: "AED 18.00",
     oldPrice: "AED 21.00",
     image: "/products/2412-bodylotions.png",
@@ -1456,7 +1457,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Nivea 72 hour moisture",
     brand: "NIVEA",
-    description: "COMPLETE CARE: NIVEA Rich Nourishing Body Loti...",
+    description: "Complete care: NIVEA Rich Nourishing Body Lotion provides 72 hours of moisture for dry, very dry skin.",
     price: "AED 36.00",
     oldPrice: "AED 37.00",
     image: "/products/2414-bodylotions.png",
@@ -1466,7 +1467,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Carotone cream lotion carotone lotion",
     brand: "DR DESTA SELECTION",
-    description: "CaroTone Brightening Body Lotion is a skin-smo...",
+    description: "CaroTone Brightening Body Lotion is a skin-smoothing formula designed to help even out the look of skin tone.",
     price: "AED 15.00",
     oldPrice: "AED 20.00",
     image: "/products/2680-bodylotions.png",
@@ -1478,7 +1479,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Cocoa butter 250ml body cream",
     brand: "DR DESTA SELECTION",
-    description: "Nourish and protect your skin with Cocoa Butte...",
+    description: "Nourish and protect your skin with cocoa butter, deeply moisturizing for soft, smooth results.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2603-bodycreams.png",
@@ -1488,7 +1489,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Cocoa butter body cream, 500ml",
     brand: "DR DESTA SELECTION",
-    description: "Nourish and protect your skin with Cocoa Butte...",
+    description: "Nourish and protect your skin with cocoa butter in this larger 500ml size, deeply moisturizing for soft, smooth results.",
     price: "AED 25.00",
     oldPrice: "AED 30.00",
     image: "/products/2605-bodycreams.png",
@@ -1498,7 +1499,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Jamjoom Pharma Elica-M cream 30g",
     brand: "DR DESTA SELECTION",
-    description: "Jamjoom Pharma Elica Cream 30g is a dermatolog...",
+    description: "Jamjoom Pharma Elica-M Cream, 30g, is a dermatologist-formulated cream for everyday skin care.",
     price: "AED 30.00",
     oldPrice: "AED 35.00",
     image: "/products/2665-bodycreams.png",
@@ -1510,7 +1511,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Carotone Brightening Cream and Soap",
     brand: "DR DESTA SELECTION",
-    description: "CaroTone Samba Life Brightening Cream (Tube) 1...",
+    description: "CaroTone Samba Life Brightening Cream and Soap set helps cleanse and even out the look of skin tone.",
     price: "AED 5.00",
     oldPrice: "AED 13.00",
     image: "/products/2684-soapscleansers.png",
@@ -1520,7 +1521,7 @@ export const PRODUCTS: Product[] = [
   {
     name: "Glutathione Whitening Soap for Skin Tone",
     brand: "DR DESTA SELECTION",
-    description: "Brighten and refresh your skin with whitening ...",
+    description: "Brighten and refresh your skin with this whitening soap formulated with glutathione for a more even tone.",
     price: "AED 45.00",
     oldPrice: "AED 50.00",
     image: "/products/2609-soapscleansers.png",
@@ -1537,9 +1538,264 @@ export const PRODUCTS: Product[] = [
     href: "/product/palmers-hair-cream",
     categories: ["haircare"],
   },
+  {
+    name: "Zafaran beauty cream, Zafaran cream for skin",
+    brand: "DR DESTA SELECTION",
+    description: "A saffron-based beauty cream from the Zafaran range, designed for brightening, anti-aging, and hydration.",
+    price: "AED 95.00",
+    oldPrice: "AED 100.00",
+    image: "/products/2339-zoom.png",
+    href: "/product/zafaran-beauty-cream",
+    categories: ["skincare", "face-creams"],
+  },
+  {
+    name: "France whitening cream, brightening products",
+    brand: "DR DESTA SELECTION",
+    description: "A French-style whitening and brightening face cream for an even, radiant-looking complexion.",
+    price: "AED 50.00",
+    oldPrice: "AED 60.00",
+    image: "/products/2345-zoom.png",
+    href: "/product/france-whitening-cream",
+    categories: ["skincare", "face-creams"],
+  },
+  {
+    name: "NeoCell Super Collagen + Vitamin C + Biotin 270 Tablets",
+    brand: "NEOCELL",
+    description: "A beauty and wellness tablet supplement with collagen, vitamin C, and biotin for hair, skin, and nails.",
+    price: "AED 90.00",
+    oldPrice: "AED 100.00",
+    image: "/products/2349-zoom.png",
+    href: "/product/neocell-super-collagen-vitamin-c-biotin-270-tablets",
+    categories: ["skincare"],
+  },
+  {
+    name: "QC Vegan Shampoo 1000ml",
+    brand: "DR DESTA SELECTION",
+    description: "A natural vegan shampoo that cleanses hair and scalp while helping repair visible damage.",
+    price: "AED 35.00",
+    oldPrice: "AED 37.00",
+    image: "/products/2351-zoom.png",
+    href: "/product/qc-vegan-shampoo",
+    categories: ["haircare", "shampoos"],
+  },
+  {
+    name: "QC Vegan Conditioner",
+    brand: "DR DESTA SELECTION",
+    description: "A sulfate-free, anti-frizz vegan conditioner for smoother, more manageable hair.",
+    price: "AED 35.00",
+    oldPrice: "AED 37.00",
+    image: "/products/2353-zoom.png",
+    href: "/product/qc-vegan-conditioner",
+    categories: ["haircare", "conditioners"],
+  },
+  {
+    name: "QC Vegan Mask 1000ml",
+    brand: "DR DESTA SELECTION",
+    description: "A natural vegan hair mask that improves scalp health and repairs damage from root to tip.",
+    price: "AED 35.00",
+    oldPrice: "AED 37.00",
+    image: "/products/2355-zoom.png",
+    href: "/product/qc-vegan-mask",
+    categories: ["haircare", "masks-treatments"],
+  },
+  {
+    name: "Seven Green Natural Herbal Anti Hair Loss Shampoo",
+    brand: "DR DESTA SELECTION",
+    description: "An innovative herbal formula shampoo that strengthens hair and helps combat hair loss.",
+    price: "AED 30.00",
+    oldPrice: "AED 35.00",
+    image: "/products/2358-zoom.png",
+    href: "/product/seven-green-natural-herbal-anti-hair-loss-shampoo",
+    categories: ["haircare", "shampoos", "growth-products"],
+  },
+  {
+    name: "ALTA+ Miracle Growth Hair Oil",
+    brand: "DR DESTA SELECTION",
+    description: "An organic hair growth oil designed to nourish the scalp and support longer, healthier-looking hair.",
+    price: "AED 90.00",
+    oldPrice: "AED 100.00",
+    image: "/products/2361-zoom.png",
+    href: "/product/alta-miracle-growth-hair-oil",
+    categories: ["haircare", "hair-oils", "growth-products"],
+  },
+  {
+    name: "African Shea Butter",
+    brand: "DR DESTA SELECTION",
+    description: "A smooth, golden-yellow natural and organic African shea butter for skin and hair.",
+    price: "AED 30.00",
+    oldPrice: "AED 35.00",
+    image: "/products/2367-zoom.png",
+    href: "/product/african-shea-butter",
+    categories: ["body-care", "body-creams"],
+  },
+  {
+    name: "Omega-3 Cardiovascular Support",
+    brand: "DR DESTA SELECTION",
+    description: "An omega-3 softgel supplement that supports cardiovascular health and healthy blood lipid levels.",
+    price: "AED 125.00",
+    oldPrice: "AED 130.00",
+    image: "/products/2369-zoom.png",
+    href: "/product/omega-3-cardiovascular-support",
+    categories: ["skincare"],
+  },
+  {
+    name: "Collagen Pink Glow Plus",
+    brand: "DR DESTA SELECTION",
+    description: "A fruit-flavored collagen supplement that boosts collagen for firmer skin and helps reduce dark spots.",
+    price: "AED 40.00",
+    oldPrice: "AED 45.00",
+    image: "/products/2371-zoom.png",
+    href: "/product/collagen-pink-glow-plus",
+    categories: ["skincare"],
+  },
+  {
+    name: "NeoCell Super Collagen +C 250 Tablets",
+    brand: "NEOCELL",
+    description: "A clinically-tested collagen and vitamin C tablet supplement for hair, skin, and nails.",
+    price: "AED 90.00",
+    oldPrice: "AED 100.00",
+    image: "/products/2373-zoom.png",
+    href: "/product/neocell-super-collagen-c-250-tablets",
+    categories: ["skincare"],
+  },
+  {
+    name: "NeoCell 180 Tablets Super Collagen + Vitamin C",
+    brand: "NEOCELL",
+    description: "A collagen and vitamin C tablet supplement that supports collagen formation and youthful-looking skin.",
+    price: "AED 90.00",
+    oldPrice: "AED 100.00",
+    image: "/products/2375-zoom.png",
+    href: "/product/neocell-180-tablets-super-collagen",
+    categories: ["skincare"],
+  },
+  {
+    name: "Blue Magic Conditioner and Hair Dress Anti-Breakage Formula",
+    brand: "DR DESTA SELECTION",
+    description: "A conditioning hair dress that helps protect hair from breakage while adding shine and softness.",
+    price: "AED 20.00",
+    oldPrice: "AED 25.00",
+    image: "/products/2377-zoom.png",
+    href: "/product/blue-magic-conditioner-hair-dress-anti-breakage",
+    categories: ["haircare", "conditioners"],
+  },
+  {
+    name: "DAX Hair Styling Cream",
+    brand: "DAX",
+    description: "A moisture-retaining DAX styling cream that helps minimize frizz and define curls.",
+    price: "AED 20.00",
+    oldPrice: "AED 25.00",
+    image: "/products/2383-zoom.png",
+    href: "/product/dax-hair-styling-cream",
+    categories: ["haircare"],
+  },
+  {
+    name: "DAX Wave & Groom Hair Dress",
+    brand: "DAX",
+    description: "A quality DAX-branded hair dress pomade for wave setting and everyday grooming.",
+    price: "AED 15.00",
+    oldPrice: "AED 16.00",
+    image: "/products/2385-zoom.png",
+    href: "/product/dax-wave-and-groom-hair-dress",
+    categories: ["haircare"],
+  },
+  {
+    name: "Mielle Rosemary Mint Shampoo & Mask",
+    brand: "MIELLE",
+    description: "A rosemary mint hair care duo infused with biotin for daily care or special strengthening treatment.",
+    price: "AED 90.00",
+    oldPrice: "AED 100.00",
+    image: "/products/2387-zoom.png",
+    href: "/product/mielle-rosemary-mint-shampoo-mask",
+    categories: ["haircare", "shampoos", "masks-treatments"],
+  },
+  {
+    name: "Cantu Avocado Hydrating Cream Shampoo",
+    brand: "CANTU",
+    description: "A sulphate-free avocado shampoo that gently removes heavy product build-up from curly, coily and wavy hair.",
+    price: "AED 30.00",
+    oldPrice: "AED 35.00",
+    image: "/products/2391-zoom.png",
+    href: "/product/cantu-avocado-shampoo",
+    categories: ["haircare", "shampoos"],
+  },
+  {
+    name: "Avocado Oil Hair Food",
+    brand: "DR DESTA SELECTION",
+    description: "An enriched avocado oil hair food formula for healthier, more nourished hair.",
+    price: "AED 25.00",
+    oldPrice: "AED 30.00",
+    image: "/products/2588-zoom.png",
+    href: "/product/avocado-oil-hair-food",
+    categories: ["haircare", "hair-oils"],
+  },
+  {
+    name: "Vaseline Original Moisturizing Jelly",
+    brand: "VASELINE",
+    description: "A dermatologist-tested, 3x-purified petroleum jelly that protects skin from dryness.",
+    price: "AED 15.00",
+    oldPrice: "AED 18.00",
+    image: "/products/2606-zoom.png",
+    href: "/product/vaseline-original-moisturizing-jelly",
+    categories: ["body-care", "skincare"],
+  },
+  {
+    name: "Nail Fungus Treatment Cream",
+    brand: "DR DESTA SELECTION",
+    description: "A targeted treatment cream for visible signs of nail fungus.",
+    price: "AED 35.00",
+    oldPrice: "AED 40.00",
+    image: "/products/2663-zoom.png",
+    href: "/product/nail-fungus-treatment-cream",
+    categories: ["body-care"],
+  },
+  {
+    name: "LA'FRESH Professional Hair Color Conditioner, Natural Black",
+    brand: "LA'FRESH",
+    description: "A professional hair color conditioner that darkens gray hair to a natural black in just 5 minutes.",
+    price: "AED 30.00",
+    oldPrice: "AED 35.00",
+    image: "/products/2669-zoom.png",
+    href: "/product/lafresh-hair-color-conditioner-black",
+    categories: ["haircare", "conditioners"],
+  },
+  {
+    name: "A-Rotone Natural Glow Clarifying Cream",
+    brand: "A-ROTONE",
+    description: "A clarifying cream with a collagen formula and sun protection for a natural glowing complexion.",
+    price: "AED 35.00",
+    oldPrice: "AED 40.00",
+    image: "/products/2677-zoom.png",
+    href: "/product/a-rotone-natural-glow-clarifying-cream",
+    categories: ["skincare", "face-creams"],
+  },
+  {
+    name: "Parachute 100% Pure Coconut Oil",
+    brand: "PARACHUTE",
+    description: "A 100% pure coconut oil for nourishing hair and skin, from the trusted Parachute brand.",
+    price: "AED 20.00",
+    oldPrice: "AED 25.00",
+    image: "/products/2812-zoom.png",
+    href: "/product/parachute-pure-coconut-oil",
+    categories: ["haircare", "hair-oils", "body-care"],
+  },
+  {
+    name: "Hemani Clove Oil 30ml",
+    brand: "HEMANI",
+    description: "A pure, naturally-sourced clove oil from Hemani, suited for hair and scalp care.",
+    price: "AED 20.00",
+    oldPrice: "AED 25.00",
+    image: "/products/2820-zoom.png",
+    href: "/product/hemani-clove-oil",
+    categories: ["haircare", "hair-oils"],
+  },
 ];
 
 export function getProductsByCategory(category: string) {
   if (category === "offers") return PRODUCTS.filter((p) => p.oldPrice != null);
   return PRODUCTS.filter((p) => p.categories?.includes(category));
+}
+
+export function getProductsByBrand(brandSlug: string) {
+  const normalized = brandSlug.toLowerCase().replace(/-/g, " ");
+  return PRODUCTS.filter((p) => p.brand?.toLowerCase() === normalized);
 }

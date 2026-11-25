@@ -1,7 +1,11 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Heart } from "lucide-react";
 import Reveal from "@/components/Reveal";
+import { useCart } from "@/context/CartContext";
 
 export type Product = {
   name: string;
@@ -22,6 +26,8 @@ type ProductCardProps = {
 
 export default function ProductCard({ product, delay = 0 }: ProductCardProps) {
   const available = product.available ?? true;
+  const [wishlisted, setWishlisted] = useState(false);
+  const { addItem } = useCart();
 
   return (
     <Reveal delay={delay} className="group flex h-full flex-col">
@@ -32,9 +38,17 @@ export default function ProductCard({ product, delay = 0 }: ProductCardProps) {
         <button
           type="button"
           aria-label="Add to wishlist"
-          className="absolute right-3 top-3 z-10 text-ink/70 transition-colors hover:text-gold"
+          aria-pressed={wishlisted}
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            setWishlisted((w) => !w);
+          }}
+          className={`absolute right-3 top-3 z-10 transition-colors ${
+            wishlisted ? "text-gold" : "text-ink/70 hover:text-gold"
+          }`}
         >
-          <Heart size={18} strokeWidth={1.5} />
+          <Heart size={18} strokeWidth={1.5} className={wishlisted ? "fill-gold" : ""} />
         </button>
         <div className="relative h-48 w-full overflow-hidden sm:h-56">
           <Image
@@ -70,6 +84,20 @@ export default function ProductCard({ product, delay = 0 }: ProductCardProps) {
         {available ? (
           <button
             type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              addItem(
+                {
+                  href: product.href,
+                  name: product.name,
+                  brand: product.brand,
+                  price: product.price,
+                  image: product.image,
+                },
+                1
+              );
+            }}
             className="mt-auto w-full border border-ink py-2.5 text-[11px] font-semibold tracking-[0.15em] text-ink transition-colors hover:bg-ink hover:text-cream"
           >
             ADD TO CART

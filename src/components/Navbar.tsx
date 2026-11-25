@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Heart, Search, ShoppingBag, User, X } from "lucide-react";
+import { useCart } from "@/context/CartContext";
 
 const LEFT_LINKS = [
   { label: "Home", href: "/" },
@@ -104,6 +105,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [isClosing, setIsClosing] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const { totalCount } = useCart();
 
   const clearCloseTimer = () => {
     if (closeTimer.current) {
@@ -169,7 +171,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
               className="flex items-center gap-1 transition-colors hover:text-gold"
             >
               <ShoppingBag size={16} strokeWidth={1.5} />
-              <span className="text-[11px] text-gold">0</span>
+              <span className="text-[11px] text-gold">{totalCount}</span>
             </button>
           </div>
         </div>
