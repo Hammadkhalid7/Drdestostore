@@ -5,12 +5,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
+type HeadingLine = { text: string; italic?: boolean };
+
 type Slide = {
   image: string | null;
   mobileImage?: string;
   alt: string;
   eyebrow: string;
-  heading: { text: string; italic?: boolean }[];
+  heading: HeadingLine[];
+  mobileHeading?: HeadingLine[];
   paragraph: string;
   ctaLabel: string;
   ctaHref: string;
@@ -21,10 +24,15 @@ type Slide = {
 const SLIDES: Slide[] = [
   {
     image: "/hero/slide-1-v2.webp",
-    mobileImage: "/hero-mobile-2.webp",
+    mobileImage: "/hero-mobile-6.webp",
     alt: "Woman with radiant skin wearing a cream knit wrap",
     eyebrow: "THE BEAUTY EDIT",
     heading: [{ text: "Beauty," }, { text: "Thoughtfully Curated.", italic: true }],
+    mobileHeading: [
+      { text: "Beauty," },
+      { text: "Thoughtfully", italic: true },
+      { text: "Curated.", italic: true },
+    ],
     paragraph:
       "Discover skincare and beauty essentials selected to complement your everyday routine.",
     ctaLabel: "EXPLORE THE COLLECTION",
@@ -33,10 +41,15 @@ const SLIDES: Slide[] = [
   },
   {
     image: "/hero/slide-2.webp",
-    mobileImage: "/hero-mobile-1.webp",
+    mobileImage: "/hero-mobile-4.webp",
     alt: "Woman with long, glossy wavy hair wrapped in a cream towel",
     eyebrow: "THE HAIRCARE EDIT",
     heading: [{ text: "Give Your Hair the" }, { text: "Care It Deserves.", italic: true }],
+    mobileHeading: [
+      { text: "Give Your Hair" },
+      { text: "the Care It", italic: true },
+      { text: "Deserves.", italic: true },
+    ],
     paragraph:
       "Explore shampoos, nourishing oils, conditioners and haircare essentials.",
     ctaLabel: "DISCOVER HAIRCARE",
@@ -45,10 +58,15 @@ const SLIDES: Slide[] = [
   },
   {
     image: "/hero/slide-3.webp",
-    mobileImage: "/hero-mobile-3.webp",
+    mobileImage: "/hero-mobile-5.webp",
     alt: "Amber dropper bottle, frosted pump bottle and cream jar styled on stone with an orchid",
     eyebrow: "THE EVERYDAY EDIT",
     heading: [{ text: "Your Daily Ritual," }, { text: "Elevated.", italic: true }],
+    mobileHeading: [
+      { text: "Your Daily" },
+      { text: "Ritual," },
+      { text: "Elevated.", italic: true },
+    ],
     paragraph:
       "Find the essentials that make your personal-care routine feel a little more special.",
     ctaLabel: "SHOP BEAUTY ESSENTIALS",
@@ -112,13 +130,29 @@ export default function Hero() {
               <div className="absolute inset-0 bg-[linear-gradient(to_top,var(--color-cream)_0%,var(--color-cream)_18%,transparent_58%)] sm:bg-[linear-gradient(to_right,color-mix(in_srgb,var(--color-cream)_55%,transparent)_0%,color-mix(in_srgb,var(--color-cream)_10%,transparent)_60%,transparent_100%)]" />
             </div>
 
-            <div className="relative z-10 mx-auto flex h-full max-w-[1800px] items-end pl-6 pr-6 pb-28 sm:items-center sm:pb-0 sm:pl-16 sm:pr-10 lg:pl-24">
+            <div className="relative z-10 mx-auto flex h-full max-w-[1800px] items-end pl-6 pr-6 pb-44 sm:items-center sm:pb-0 sm:pl-16 sm:pr-10 lg:pl-24">
               <div className="max-w-2xl">
                 <p className="text-xs font-semibold tracking-[0.3em] text-gold">
                   {slide.eyebrow}
                 </p>
 
-                <h1 className="mt-4 font-display text-4xl leading-[1.08] text-ink sm:mt-6 sm:text-6xl sm:leading-[1.05] lg:text-7xl">
+                {slide.mobileHeading && (
+                  <h1 className="mt-4 font-display text-4xl leading-[1.08] text-ink sm:hidden">
+                    {slide.mobileHeading.map((line, j) => (
+                      <span key={j}>
+                        {j > 0 && <br />}
+                        <span className={line.italic ? "italic font-normal" : ""}>
+                          {line.text}
+                        </span>
+                      </span>
+                    ))}
+                  </h1>
+                )}
+                <h1
+                  className={`mt-4 font-display text-4xl leading-[1.08] text-ink sm:mt-6 sm:text-7xl sm:leading-[1.05] ${
+                    slide.mobileHeading ? "hidden sm:block" : ""
+                  }`}
+                >
                   {slide.heading.map((line, j) => (
                     <span key={j}>
                       {j > 0 && <br />}

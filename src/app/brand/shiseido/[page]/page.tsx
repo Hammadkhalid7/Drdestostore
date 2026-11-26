@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import BrandContent, { getBrandTotalPages, isValidBrandPage } from "@/components/BrandContent";
 
+export const instant = false;
+
 export function generateStaticParams() {
   const totalPages = getBrandTotalPages("shiseido");
   return Array.from({ length: Math.max(1, totalPages - 1) }, (_, i) => ({

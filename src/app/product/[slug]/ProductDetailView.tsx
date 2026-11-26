@@ -84,7 +84,7 @@ export default function ProductDetailView({
   const [wishlisted, setWishlisted] = useState(false);
   const { addItem } = useCart();
   const detailItems = getDetailItems(product);
-  const detailImage = getDetailImage(product.image);
+  const [detailImage, setDetailImage] = useState(() => getDetailImage(product.image));
 
   return (
     <>
@@ -117,6 +117,7 @@ export default function ProductDetailView({
                 quality={95}
                 className="object-contain"
                 priority
+                onError={() => setDetailImage(product.image)}
               />
             </div>
           </div>

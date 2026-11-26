@@ -44,20 +44,24 @@ export default function CategorySection() {
           </Link>
         </div>
 
-        <div className="mt-14 grid grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-4">
+        <div className="mt-14 grid grid-cols-2 gap-x-6 gap-y-6 lg:grid-cols-4">
           {CATEGORIES.map((category) => (
-            <Link key={category.name} href={category.href} className="group flex flex-col">
-              <div className="relative h-44 w-full">
+            <Link
+              key={category.name}
+              href={category.href}
+              className="group flex flex-col border border-ink/10 bg-white"
+            >
+              <div className="relative h-44 w-full overflow-hidden">
                 <Image
                   src={category.image}
                   alt={category.name}
                   fill
                   sizes="(min-width: 1024px) 25vw, 50vw"
-                  className="object-contain transition-transform duration-300 group-hover:scale-105"
+                  className="object-contain p-4 transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
 
-              <div className="mt-6">
+              <div className="px-4 py-5">
                 <h3 className="font-display text-2xl text-ink">{category.name}</h3>
                 <span className="mt-2 inline-flex items-center gap-1 text-[11px] font-semibold tracking-[0.15em] text-gold">
                   SHOP CATEGORY

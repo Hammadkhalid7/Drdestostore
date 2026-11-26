@@ -14,16 +14,16 @@ export default function BrandCollectionSection() {
   return (
     <section className="bg-cream pb-20">
       <div className="mx-auto max-w-[1800px] px-6 sm:px-10">
-        <div className="border-t border-ink/10 pt-10">
+        <div className="border-t border-ink/10 pt-16">
           <p className="text-xs font-semibold tracking-[0.3em] text-gold">
             FAMILIAR NAMES. FRESH DISCOVERIES.
           </p>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-36 gap-y-4">
+          <div className="mt-10 flex flex-wrap items-center justify-start gap-x-36 gap-y-4">
             {BRANDS.map((brand) => (
               <Link
                 key={brand.href}
                 href={brand.href}
-                className="text-lg text-ink transition-colors hover:text-gold"
+                className="font-display text-xl font-medium text-ink transition-colors hover:text-gold"
               >
                 {brand.name}
               </Link>
@@ -32,7 +32,7 @@ export default function BrandCollectionSection() {
         </div>
       </div>
 
-      <div className="mt-14 grid grid-cols-1 lg:grid-cols-2">
+      <div className="mt-16 grid grid-cols-1 lg:grid-cols-2">
         <div className="relative h-[320px] w-full overflow-hidden lg:h-[480px]">
           <Image
             src="/sections/beauty-collection.jpg"

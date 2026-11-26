@@ -30,7 +30,7 @@ export default function ProductCard({ product, delay = 0 }: ProductCardProps) {
   const { addItem } = useCart();
 
   return (
-    <Reveal delay={delay} className="group flex h-full flex-col">
+    <Reveal delay={delay} className="group flex h-full flex-col bg-white">
       <Link href={product.href} className="relative block bg-white">
         <span className="absolute left-3 top-3 z-10 bg-cream px-2 py-1 text-[10px] font-semibold tracking-[0.1em] text-gold">
           SALE
@@ -50,7 +50,7 @@ export default function ProductCard({ product, delay = 0 }: ProductCardProps) {
         >
           <Heart size={18} strokeWidth={1.5} className={wishlisted ? "fill-gold" : ""} />
         </button>
-        <div className="relative h-48 w-full overflow-hidden sm:h-56">
+        <div className="relative h-52 w-full overflow-hidden sm:h-60">
           <Image
             src={product.image}
             alt={product.name}
@@ -61,22 +61,22 @@ export default function ProductCard({ product, delay = 0 }: ProductCardProps) {
         </div>
       </Link>
 
-      <div className="mt-4 flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col px-4 pb-4 pt-4">
         <p className="text-[11px] font-semibold tracking-[0.15em] text-ink/50">{product.brand}</p>
         <Link href={product.href}>
           <h3 className="mt-1.5 line-clamp-1 text-base text-ink transition-colors hover:text-gold">
             {product.name}
           </h3>
         </Link>
-        <p className="mt-2 line-clamp-1 text-sm text-ink/50">{product.description}</p>
+        <p className="mt-6 line-clamp-1 text-sm text-ink/50">{product.description}</p>
 
         {available ? (
-          <div className="mt-2 flex items-center gap-3">
+          <div className="mt-1.5 flex items-center gap-3">
             <span className="text-sm font-semibold text-ink">{product.price}</span>
             <span className="text-sm text-ink/35 line-through">{product.oldPrice}</span>
           </div>
         ) : (
-          <div className="mt-2">
+          <div className="mt-1.5">
             <span className="text-sm text-ink/40">Currently unavailable</span>
           </div>
         )}

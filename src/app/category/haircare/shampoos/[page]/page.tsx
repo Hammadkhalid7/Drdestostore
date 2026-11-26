@@ -5,6 +5,8 @@ import CategoryContent, {
 } from "@/components/CategoryContent";
 import { SHAMPOOS_PAGE_PROPS } from "../config";
 
+export const instant = false;
+
 export function generateStaticParams() {
   const totalPages = getCategoryTotalPages("shampoos");
   return Array.from({ length: Math.max(1, totalPages - 1) }, (_, i) => ({

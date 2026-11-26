@@ -29,7 +29,7 @@ function Stars() {
 
 export default function TestimonialsSection() {
   return (
-    <section className="bg-cream pb-20">
+    <section className="bg-cream pt-16 pb-20">
       <Reveal className="mx-auto max-w-[1800px] px-6 sm:px-10">
         <div className="mb-10 flex items-center gap-6">
           <span className="text-xs font-semibold tracking-[0.25em] text-gold">

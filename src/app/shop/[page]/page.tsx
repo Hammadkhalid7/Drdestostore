@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import ShopAllContent, { getTotalPages, isValidPage } from "@/components/ShopAllContent";
 
+export const instant = false;
+
 export function generateStaticParams() {
   const totalPages = getTotalPages();
   return Array.from({ length: Math.max(1, totalPages - 1) }, (_, i) => ({
