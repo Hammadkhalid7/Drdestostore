@@ -44,6 +44,7 @@ export default function CustomerFavoritesSection() {
     <ProductGridSection
       eyebrow="CUSTOMER-REVIEWED FINDS"
       heading="Your next favorite, waiting."
+      mobileHeading={<>Your next<br />favorite, waiting.</>}
       viewAllHref="/shop"
       products={PRODUCTS}
     />
