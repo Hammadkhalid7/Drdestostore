@@ -18,7 +18,7 @@ export const SOAPS_CLEANSERS_PAGE_PROPS = {
   heading: "Soaps & Cleansers",
   subheading:
     "Discover soaps & cleansers selected for your everyday care. Explore the collection and find the right addition in your routine.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Dropper bottle, pump bottle and jar styled on stone",
   breadcrumbLabel: "Soaps & Cleansers",
   tabs: BODYCARE_TABS,

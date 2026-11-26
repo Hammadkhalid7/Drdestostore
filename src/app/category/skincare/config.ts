@@ -36,7 +36,7 @@ export const SKINCARE_PAGE_PROPS = {
   heading: "Good skin starts with care.",
   subheading:
     "From the first cleanse to the finishing layer, explore essentials for a routine that feels like yours.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Woman gently touching her face, showcasing smooth, glowing skin",
   breadcrumbLabel: "All Skincare",
   tabs: SKINCARE_TABS,

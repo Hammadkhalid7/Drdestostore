@@ -33,7 +33,7 @@ export const BODYCARE_PAGE_PROPS = {
   heading: "Body Care",
   subheading:
     "Discover body care selected for your everyday care. Explore the collection and find the right addition in your routine.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Dropper bottle, pump bottle and jar styled on stone",
   breadcrumbLabel: "Body Care",
   tabs: BODYCARE_TABS,

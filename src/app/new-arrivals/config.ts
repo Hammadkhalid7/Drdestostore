@@ -28,7 +28,7 @@ export const NEW_ARRIVALS_PAGE_PROPS = {
   heading: "A fresh beauty perspective.",
   subheading:
     "Discover the latest additions featured by Dr Desta Store, from haircare essentials to everyday beauty finds.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Dropper bottle, pump bottle and jar styled on stone",
   breadcrumbLabel: "New Arrivals",
   tabs: NEW_ARRIVALS_TABS,

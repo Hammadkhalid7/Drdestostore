@@ -16,7 +16,7 @@ export const SUNSCREEN_PAGE_PROPS = {
   heading: "A daily essential.",
   subheading:
     "Explore sun protection from familiar skincare names. Choose the product that suits your routine.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Woman gently touching her face, showcasing smooth, glowing skin",
   breadcrumbLabel: "Sunscreens",
   tabs: SKINCARE_TABS,

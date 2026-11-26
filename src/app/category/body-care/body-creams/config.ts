@@ -26,7 +26,7 @@ export const BODY_CREAMS_PAGE_PROPS = {
   heading: "Body Creams",
   subheading:
     "Discover body creams selected for your everyday care. Explore the collection and find the right addition in your routine.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Dropper bottle, pump bottle and jar styled on stone",
   breadcrumbLabel: "Body Creams",
   tabs: BODYCARE_TABS,

@@ -28,7 +28,7 @@ export const SPECIAL_OFFERS_PAGE_PROPS = {
   heading: "Good finds, considered prices.",
   subheading:
     "Explore current offers across the collection. Original and selling prices are shown together for easy comparison.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Dropper bottle, pump bottle and jar styled on stone",
   breadcrumbLabel: "Special Offers",
   tabs: SPECIAL_OFFERS_TABS,

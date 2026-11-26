@@ -29,7 +29,7 @@ export const SERUMS_TREATMENTS_PAGE_PROPS = {
   heading: "Serums & Treatments",
   subheading:
     "Discover serums & treatments selected for your everyday care. Explore the collection and find the right addition to your routine.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Woman gently touching her face, showcasing smooth, glowing skin",
   breadcrumbLabel: "Serums & Treatments",
   tabs: SKINCARE_TABS,

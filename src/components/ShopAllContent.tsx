@@ -61,7 +61,7 @@ export default function ShopAllContent({ page }: { page: number }) {
 
             <div className="relative h-[160px] w-[280px] shrink-0 overflow-hidden lg:h-[160px] lg:w-[280px]">
               <Image
-                src="/sections/our-story.png"
+                src="/sections/about-hero.jpg"
                 alt="Woman gently touching her face, showcasing smooth, glowing skin"
                 fill
                 sizes="280px"

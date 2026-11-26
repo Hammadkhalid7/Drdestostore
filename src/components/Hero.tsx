@@ -7,6 +7,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 type Slide = {
   image: string | null;
+  mobileImage?: string;
   alt: string;
   eyebrow: string;
   heading: { text: string; italic?: boolean }[];
@@ -14,11 +15,13 @@ type Slide = {
   ctaLabel: string;
   ctaHref: string;
   objectPosition?: string;
+  mobileObjectPosition?: string;
 };
 
 const SLIDES: Slide[] = [
   {
     image: "/hero/slide-1-v2.webp",
+    mobileImage: "/hero-mobile-2.webp",
     alt: "Woman with radiant skin wearing a cream knit wrap",
     eyebrow: "THE BEAUTY EDIT",
     heading: [{ text: "Beauty," }, { text: "Thoughtfully Curated.", italic: true }],
@@ -26,9 +29,11 @@ const SLIDES: Slide[] = [
       "Discover skincare and beauty essentials selected to complement your everyday routine.",
     ctaLabel: "EXPLORE THE COLLECTION",
     ctaHref: "/shop",
+    mobileObjectPosition: "center 20%",
   },
   {
     image: "/hero/slide-2.webp",
+    mobileImage: "/hero-mobile-1.webp",
     alt: "Woman with long, glossy wavy hair wrapped in a cream towel",
     eyebrow: "THE HAIRCARE EDIT",
     heading: [{ text: "Give Your Hair the" }, { text: "Care It Deserves.", italic: true }],
@@ -36,9 +41,11 @@ const SLIDES: Slide[] = [
       "Explore shampoos, nourishing oils, conditioners and haircare essentials.",
     ctaLabel: "DISCOVER HAIRCARE",
     ctaHref: "/category/haircare",
+    mobileObjectPosition: "center 25%",
   },
   {
     image: "/hero/slide-3.webp",
+    mobileImage: "/hero-mobile-3.webp",
     alt: "Amber dropper bottle, frosted pump bottle and cream jar styled on stone with an orchid",
     eyebrow: "THE EVERYDAY EDIT",
     heading: [{ text: "Your Daily Ritual," }, { text: "Elevated.", italic: true }],
@@ -47,6 +54,7 @@ const SLIDES: Slide[] = [
     ctaLabel: "SHOP BEAUTY ESSENTIALS",
     ctaHref: "/shop",
     objectPosition: "right top",
+    mobileObjectPosition: "center 30%",
   },
 ];
 
@@ -65,7 +73,7 @@ export default function Hero() {
   }, [active]);
 
   return (
-    <section className="relative h-[560px] w-full overflow-hidden bg-cream sm:h-[680px] lg:h-[860px]">
+    <section className="relative h-[640px] w-full overflow-hidden bg-cream sm:h-[680px] lg:h-[860px]">
       <div
         className="flex h-full transition-transform duration-[900ms] ease-[cubic-bezier(0.65,0,0.35,1)]"
         style={{ width: `${SLIDES.length * 100}%`, transform: `translateX(-${active * (100 / SLIDES.length)}%)` }}
@@ -74,15 +82,26 @@ export default function Hero() {
           <div key={i} className="relative h-full shrink-0" style={{ width: `${100 / SLIDES.length}%` }}>
             <div className="absolute inset-0">
               {slide.image ? (
-                <Image
-                  src={slide.image}
-                  alt={slide.alt}
-                  fill
-                  priority={i === 0}
-                  sizes="100vw"
-                  className="object-cover"
-                  style={{ objectPosition: slide.objectPosition ?? "75% 0%" }}
-                />
+                <>
+                  <Image
+                    src={slide.mobileImage ?? slide.image}
+                    alt={slide.alt}
+                    fill
+                    priority={i === 0}
+                    sizes="100vw"
+                    className="object-cover sm:hidden"
+                    style={{ objectPosition: slide.mobileObjectPosition ?? "center 20%" }}
+                  />
+                  <Image
+                    src={slide.image}
+                    alt={slide.alt}
+                    fill
+                    priority={i === 0}
+                    sizes="100vw"
+                    className="hidden object-cover sm:block"
+                    style={{ objectPosition: slide.objectPosition ?? "75% 0%" }}
+                  />
+                </>
               ) : (
                 <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-cream-dark via-[#e9d4bb] to-[#d9bb95]">
                   <span className="rounded-full border border-ink/15 bg-cream/70 px-5 py-2 text-[11px] font-medium tracking-[0.2em] text-ink/50">
@@ -90,16 +109,16 @@ export default function Hero() {
                   </span>
                 </div>
               )}
-              <div className="absolute inset-0 bg-gradient-to-r from-cream/55 via-cream/10 to-transparent" />
+              <div className="absolute inset-0 bg-[linear-gradient(to_top,var(--color-cream)_0%,var(--color-cream)_18%,transparent_58%)] sm:bg-[linear-gradient(to_right,color-mix(in_srgb,var(--color-cream)_55%,transparent)_0%,color-mix(in_srgb,var(--color-cream)_10%,transparent)_60%,transparent_100%)]" />
             </div>
 
-            <div className="relative z-10 mx-auto flex h-full max-w-[1800px] items-center pl-6 pr-6 sm:pl-16 sm:pr-10 lg:pl-24">
+            <div className="relative z-10 mx-auto flex h-full max-w-[1800px] items-end pl-6 pr-6 pb-28 sm:items-center sm:pb-0 sm:pl-16 sm:pr-10 lg:pl-24">
               <div className="max-w-2xl">
                 <p className="text-xs font-semibold tracking-[0.3em] text-gold">
                   {slide.eyebrow}
                 </p>
 
-                <h1 className="mt-6 font-display text-6xl leading-[1.05] text-ink sm:text-7xl">
+                <h1 className="mt-4 font-display text-4xl leading-[1.08] text-ink sm:mt-6 sm:text-6xl sm:leading-[1.05] lg:text-7xl">
                   {slide.heading.map((line, j) => (
                     <span key={j}>
                       {j > 0 && <br />}
@@ -110,13 +129,13 @@ export default function Hero() {
                   ))}
                 </h1>
 
-                <p className="mt-6 max-w-md text-base leading-relaxed text-ink/60">
+                <p className="mt-4 max-w-md text-sm leading-relaxed text-ink/60 sm:mt-6 sm:text-base">
                   {slide.paragraph}
                 </p>
 
                 <Link
                   href={slide.ctaHref}
-                  className="mt-10 inline-flex items-center bg-ink px-8 py-4 text-xs font-semibold tracking-[0.2em] text-cream transition-colors hover:bg-gold"
+                  className="mt-6 inline-flex items-center bg-ink px-6 py-3.5 text-[11px] font-semibold tracking-[0.2em] text-cream transition-colors hover:bg-gold sm:mt-10 sm:px-8 sm:py-4 sm:text-xs"
                 >
                   {slide.ctaLabel}
                 </Link>

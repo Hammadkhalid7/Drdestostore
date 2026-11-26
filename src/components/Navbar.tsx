@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Heart, Search, ShoppingBag, User, X } from "lucide-react";
+import { ChevronDown, Heart, Menu, Search, ShoppingBag, User, X } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 
 const LEFT_LINKS = [
@@ -21,6 +21,8 @@ const RIGHT_LINKS = [
   { label: "About Us", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
+
+const ALL_LINKS = [...LEFT_LINKS, ...RIGHT_LINKS];
 
 type MegaMenuColumn = {
   header: string;
@@ -101,9 +103,96 @@ type NavbarProps = {
   transparent?: boolean;
 };
 
+function MobileMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
+  const [expanded, setExpanded] = useState<string | null>(null);
+
+  return (
+    <div className={`fixed inset-0 z-[200] lg:hidden ${open ? "" : "pointer-events-none"}`}>
+      <div
+        onClick={onClose}
+        className={`absolute inset-0 bg-ink/40 transition-opacity duration-300 ${
+          open ? "opacity-100" : "opacity-0"
+        }`}
+      />
+      <div
+        className={`absolute right-0 top-0 h-full w-full max-w-[360px] overflow-y-auto bg-cream shadow-2xl transition-transform duration-300 ease-[cubic-bezier(0.65,0,0.35,1)] ${
+          open ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <div className="flex items-center justify-between border-b border-ink/10 px-6 py-5">
+          <p className="text-xs font-semibold tracking-[0.3em] text-gold">MENU</p>
+          <button type="button" onClick={onClose} aria-label="Close menu" className="text-ink">
+            <X size={22} strokeWidth={1.5} />
+          </button>
+        </div>
+
+        <ul className="px-6 py-4">
+          {ALL_LINKS.map((link) => {
+            const menu = MEGA_MENUS[link.label];
+            const isExpanded = expanded === link.label;
+            return (
+              <li key={link.href} className="border-b border-ink/10">
+                {menu ? (
+                  <>
+                    <button
+                      type="button"
+                      onClick={() => setExpanded(isExpanded ? null : link.label)}
+                      className="flex w-full items-center justify-between py-4 text-left text-base text-ink"
+                    >
+                      {link.label}
+                      <ChevronDown
+                        size={16}
+                        strokeWidth={1.5}
+                        className={`transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`}
+                      />
+                    </button>
+                    {isExpanded && (
+                      <div className="pb-4 pl-4">
+                        {menu.columns.map((col) => (
+                          <div key={col.header} className="mb-4">
+                            <p className="text-[11px] font-semibold tracking-[0.2em] text-ink/40">
+                              {col.header}
+                            </p>
+                            <ul className="mt-2 space-y-3">
+                              {col.links.map((l) => (
+                                <li key={l.href}>
+                                  <Link
+                                    href={l.href}
+                                    onClick={onClose}
+                                    className="text-sm text-ink/80 hover:text-gold"
+                                  >
+                                    {l.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </>
+                ) : (
+                  <Link
+                    href={link.href}
+                    onClick={onClose}
+                    className="block py-4 text-base text-ink hover:text-gold"
+                  >
+                    {link.label}
+                  </Link>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
 export default function Navbar({ transparent = false }: NavbarProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [isClosing, setIsClosing] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const { totalCount } = useCart();
 
@@ -150,20 +239,22 @@ export default function Navbar({ transparent = false }: NavbarProps) {
         />
       )}
 
+      <MobileMenu open={mobileOpen} onClose={() => setMobileOpen(false)} />
+
       <div className="relative z-50" onMouseLeave={closeMenu}>
         <div className="relative z-50 bg-ink">
-        <div className="relative mx-auto flex max-w-[1800px] items-center justify-center px-6 py-2.5 sm:px-10">
-          <p className="text-center text-xs text-cream/90">
+        <div className="relative mx-auto flex max-w-[1800px] items-center justify-center px-4 py-2.5 sm:px-10">
+          <p className="truncate px-20 text-center text-[11px] text-cream/90 sm:px-0 sm:text-xs">
             Discover beauty essentials for your everyday routine.
           </p>
-          <div className="absolute right-6 flex items-center gap-5 text-cream sm:right-10">
+          <div className="absolute right-4 flex items-center gap-4 text-cream sm:right-10 sm:gap-5">
             <button aria-label="Search" className="transition-colors hover:text-gold">
               <Search size={16} strokeWidth={1.5} />
             </button>
-            <button aria-label="Account" className="transition-colors hover:text-gold">
+            <button aria-label="Account" className="hidden transition-colors hover:text-gold sm:block">
               <User size={16} strokeWidth={1.5} />
             </button>
-            <button aria-label="Wishlist" className="transition-colors hover:text-gold">
+            <button aria-label="Wishlist" className="hidden transition-colors hover:text-gold sm:block">
               <Heart size={16} strokeWidth={1.5} />
             </button>
             <button
@@ -186,11 +277,23 @@ export default function Navbar({ transparent = false }: NavbarProps) {
         }
       >
         <ul className="mx-auto flex max-w-[1800px] items-center justify-between px-6 py-2.5 text-sm font-medium text-ink sm:px-10">
+          <li className="lg:hidden">
+            <button
+              type="button"
+              onClick={() => setMobileOpen(true)}
+              aria-label="Open menu"
+              className="text-ink"
+            >
+              <Menu size={22} strokeWidth={1.5} />
+            </button>
+          </li>
+
           {LEFT_LINKS.map((link, i) => {
             const menu = MEGA_MENUS[link.label];
             return (
               <li
                 key={link.href}
+                className="hidden lg:block"
                 onMouseEnter={() => (menu ? openMenuNow(link.label) : closeMenu())}
               >
                 <Link
@@ -215,18 +318,23 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                 width={819}
                 height={933}
                 priority
-                className="h-20 w-auto object-contain"
+                className="h-12 w-auto object-contain sm:h-16 lg:h-20"
               />
             </Link>
           </li>
 
           {RIGHT_LINKS.map((link) => (
-            <li key={link.href} onMouseEnter={closeMenu}>
+            <li key={link.href} className="hidden lg:block" onMouseEnter={closeMenu}>
               <Link href={link.href} className="text-ink/80 transition-colors hover:text-gold">
                 {link.label}
               </Link>
             </li>
           ))}
+
+          {/* Spacer to balance the hamburger button on mobile, keeping the logo centered */}
+          <li className="lg:hidden" aria-hidden="true">
+            <span className="inline-block h-[22px] w-[22px]" />
+          </li>
         </ul>
 
         {!transparent && <div className="mx-6 border-t border-ink/10 sm:mx-10" />}
@@ -236,7 +344,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
             key={openMenu}
             className={
               (isClosing ? "animate-dropdown-fall" : "animate-dropdown-rise") +
-              " absolute inset-x-0 top-full border-t border-ink/10 bg-cream shadow-xl"
+              " absolute inset-x-0 top-full hidden border-t border-ink/10 bg-cream shadow-xl lg:block"
             }
           >
             <div className="relative mx-auto flex max-w-[1800px] justify-between gap-10 px-6 py-9 sm:px-10 lg:px-24">

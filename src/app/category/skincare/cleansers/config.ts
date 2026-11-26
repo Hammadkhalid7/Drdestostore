@@ -17,7 +17,7 @@ export const CLEANSERS_PAGE_PROPS = {
   heading: "Find Your Everyday Cleanser.",
   subheading:
     "Explore facial cleansing essentials from familiar skincare brands, with options for different routines and preferences.",
-  heroImage: "/sections/our-story.png",
+  heroImage: "/sections/about-hero.jpg",
   heroAlt: "Woman gently touching her face, showcasing smooth, glowing skin",
   breadcrumbLabel: "Cleansers",
   tabs: SKINCARE_TABS,

@@ -52,7 +52,7 @@ function ContactForm({ onSent }: { onSent: () => void }) {
             <option value="general">General enquiry</option>
           </select>
           <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-ink/50">
-            â†“
+            {"↓"}
           </span>
         </div>
       </div>
@@ -104,10 +104,10 @@ function ContactInfo() {
 
       <div className="space-y-1 text-sm text-ink/60">
         <p>
-          <span className="text-ink/40">Mondayâ€“Friday</span>&nbsp;&nbsp;08:30â€“20:00
+          <span className="text-ink/40">Monday–Friday</span>&nbsp;&nbsp;08:30–20:00
         </p>
         <p>
-          <span className="text-ink/40">Saturdayâ€“Sunday</span>&nbsp;&nbsp;09:30â€“21:30
+          <span className="text-ink/40">Saturday–Sunday</span>&nbsp;&nbsp;09:30–21:30
         </p>
       </div>
 
